@@ -94,9 +94,6 @@
 
 
   <link rel="preload" href="{{ 'theme.js' | asset_url }}" as="script">
-  <link rel="preload" href="{{ 'owl.carousel.css' | asset_url }}" as="script">
-  <link rel="preload" href="{{ 'theme.css' | asset_url }}" as="script">
-  <link rel="preload" href="{{ 'theme.js' | asset_url }}" as="script">
   <!-- raja -->
 
   {%- if canonical_url != blank  -%}
@@ -176,7 +173,7 @@
     {{ base_font_italic | font_face: font_display: 'swap' }}
     {{ base_font_bold_italic | font_face: font_display: 'swap' }}
   </style>
-  <script>
+  <script type="lazyload2">
     var theme = {
       breakpoints: {
         medium: 750,
@@ -253,7 +250,6 @@
       scripts.parentNode.insertBefore(polyfill, scripts);
     }
   </script> 
-  {% include 'vital-loader' %}
   
       <!----- Content For Header section -->
       {% unless content_for_header contains "Shopify.designMode" %}
