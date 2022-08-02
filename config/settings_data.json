@@ -1,1 +1,839 @@
-{"current":{"color_button":"#1d62a5","type_header_font":"lato_n4","type_base_font":"roboto_n4","social_twitter_link":"https:\/\/twitter.com\/","social_facebook_link":"https:\/\/www.facebook.com\/\/CustomPrintedTape","social_pinterest_link":"https:\/\/www.pinterest.com\/","social_instagram_link":"https:\/\/instagram.com\/CustomPrintedTape","social_youtube_link":"https:\/\/www.youtube.com\/","favicon":"shopify:\/\/shop_images\/logo.png","sections":{"header":{"type":"header","settings":{"align_logo":"left","logo":"shopify:\/\/shop_images\/site_logo.jpg","logo_max_width":220,"main_linklist":"main-menu","message":true,"home_page_only":false,"message_text":"Due to raw material delays from several manufacturers, You may see alternative product suggestions","message_link":"","color_bg":"#000000","color_text":"#cccccc"}},"feature-row":{"type":"feature-row","settings":{"layout":"left","title":"Image with text","text":"<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","button_label":""}},"feature-columns":{"type":"feature-columns","blocks":{"feature-columns-0":{"type":"text_block","settings":{"enable_image":true,"title":"Add a title or tagline","text":"<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","button_label":""}},"feature-columns-1":{"type":"text_block","settings":{"enable_image":true,"title":"Add a title or tagline","text":"<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","button_label":""}},"feature-columns-2":{"type":"text_block","settings":{"enable_image":true,"title":"Add a title or tagline","text":"<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","button_label":""}}},"block_order":["feature-columns-0","feature-columns-1","feature-columns-2"],"settings":{"title":"","align_text":"left"}},"collection":{"type":"collection","settings":{"alignment":"right_title","title":"New Products","collection":"understanding-custom-printed-packaging-and-paper-tapes","grid":4,"rows":2,"show_vendor":false,"show_view_all":false}},"quotes":{"type":"quotes","blocks":{"quotes-0":{"type":"quote","settings":{"quote":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name"}},"quotes-1":{"type":"quote","settings":{"quote":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name"}},"quotes-2":{"type":"quote","settings":{"quote":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name"}}},"block_order":["quotes-0","quotes-1","quotes-2"],"settings":{"title":""}},"image-bar":{"type":"image-bar","blocks":{"image-bar-0":{"type":"image","settings":{"alignment":"center","cta_label":""}},"image-bar-1":{"type":"image","settings":{"alignment":"center","cta_label":""}},"image-bar-2":{"type":"image","settings":{"alignment":"center","cta_label":""}}},"block_order":["image-bar-0","image-bar-1","image-bar-2"],"settings":{"section_height":"medium"}},"footer":{"type":"footer","blocks":{"731e75a8-0263-43f4-b4f5-205c7c1b8696":{"type":"link_list","settings":{"title":"Collections","menu":"collections"}},"footer-0":{"type":"link_list","settings":{"title":"Quick links","menu":"quick-links"}},"f9386199-dd00-44ec-84e4-5a3ec2156cc2":{"type":"text","settings":{"title":"Contact Us at CustomTapes.com","text":"<p>CustomTapes.com<br\/>Minneapolis, MN<\/p><p>1 877 891-7572<\/p>"}},"fc90c252-8d73-4e9d-9750-8f87594d3fac":{"type":"social","settings":{"title":"Follow CustomTapes"}},"footer-1":{"type":"newsletter","settings":{"title":"Custom Tapes Newsletter"}}},"block_order":["731e75a8-0263-43f4-b4f5-205c7c1b8696","footer-0","f9386199-dd00-44ec-84e4-5a3ec2156cc2","fc90c252-8d73-4e9d-9750-8f87594d3fac","footer-1"],"settings":{"show_payment_icons":true,"color_footer_bg":"#f6f6f6","color_footer_text":"#333232","show_locale_selector":false,"show_currency_selector":false}},"16082851108cc9cac9":{"type":"categories_section","blocks":{"16082851108cc9cac9-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/cate_01.png","cta_label":"Tapes A-G","html_code":"<p><a href=\"\/collections\/atg-gun-tapes-a-g\">ATG Gun<\/a> <span class=\"bull\">•<\/span> <a href=\"\/collections\/aerospace-tapes\">Aerospace Tapes<\/a> <br> <a href=\"\/collections\/aisle-marking-tape-tapes-a-g\">Aisle Marking Tape<\/a> <span class=\"bull\">•<\/span> <a href=\"\/collections\/tapes-a-g\">More<\/a><\/p>","link_btn":"shop now","link":"shopify:\/\/collections\/tapes-a-g"}},"80ff04f9-e97b-4a19-908b-4525029aed02":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/cate_02.png","cta_label":"TAPES H-S","html_code":"<p><a href=\"\/collections\/polyken-tape-tapes-h-s\">Polyken Tape<\/a> <span class=\"bull\">•<\/span> <a href=\"\/collections\/scapa-tape-tapes-h-s\">Scapa Tape<\/a><br> <a href=\"\/collections\/masking-tape-tapes-h-s\">Masking Tape<\/a> <span class=\"bull\">•<\/span> <a href=\"\/collections\/tapes-h-s\">More<\/a><\/p>","link_btn":"Shop Now","link":"shopify:\/\/collections\/tapes-h-s"}},"adee494d-49b0-4fc0-93df-9c95f1683ca4":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/cate_03.png","cta_label":"TAPES T-Z","html_code":"<p><a href=\"\/collections\/tamper-evident-tape-tapes-t-z\">Tamper Evident Tape<\/a><span class=\"bull\">•<\/span><a href=\"\/collections\/teflon-tapes-tapes-t-z\">Teflon Tapes<\/a> <br> <a href=\"\/collections\/water-activated-tapes-tapes-t-z\">Water Activated Tapes<\/a> <span class=\"bull\">•<\/span> <a href=\"\/collections\/tapes-t-z\">More<\/a><\/p>","link_btn":"Shop Now","link":"shopify:\/\/collections\/tapes-t-z"}}},"block_order":["16082851108cc9cac9-0","80ff04f9-e97b-4a19-908b-4525029aed02","adee494d-49b0-4fc0-93df-9c95f1683ca4"],"settings":{"html_code":"<h2>\n<span class=\"red_clr\">A TOTAL TAPE SOURCE<\/span> SINCE 1967<\/h2>\n<p>Since 1967, we have offered the widest range of tape brands to meet your every need. Our experience in the Pressure Sensitive Tape industry makes us among the most qualified to provide the best solutions. We stock tapes from over 20 manufacturers. In addition to our standard products Specialty Tape Converting Die Cuts, Slits, Rewinds, laminates and produces all custom printed tape in house. If you just prefer a <strong><em>Tape Price Check<\/em><\/strong> or a <strong><em>Quick quote?<\/em><\/strong> Inquire below<\/p>"}},"160829130466437723":{"type":"home-slider","blocks":{"160829130466437723-0":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/banner_new.jpg","mobile_image":"shopify:\/\/shop_images\/banner-mobile-01.jpg","link":"shopify:\/\/collections"}},"ba82c4ae-8731-4862-a2d1-94754cbbcc94":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/banner_new.jpg","mobile_image":"shopify:\/\/shop_images\/banner-mobile-01.jpg","link":"shopify:\/\/collections"}}},"block_order":["160829130466437723-0","ba82c4ae-8731-4862-a2d1-94754cbbcc94"],"settings":{}},"1608299516096e3331":{"type":"overlap_categories_section","blocks":{"1608299516096e3331-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/tap_01.png","cta_label":"Custom Printed Film Tape","link_btn":"Shop Now","link":"shopify:\/\/collections\/custom-printed-film-tape-custom-printed-tape"}},"e888ac16-35f9-4256-89fc-c6aa5df88ba3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/tap_02.png","cta_label":"Custom Printed Kraft","link_btn":"Shop Now","link":"#"}},"aa504e6d-50b5-477c-9674-4ea870ad0924":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/tap_03.png","cta_label":"Printed Filament Tape","link_btn":"Shop Now","link":"shopify:\/\/collections\/printed-filament-tape-custom-printed-tape"}}},"block_order":["1608299516096e3331-0","e888ac16-35f9-4256-89fc-c6aa5df88ba3","aa504e6d-50b5-477c-9674-4ea870ad0924"],"settings":{"image_main":"shopify:\/\/shop_images\/overlap_img.jpg","image_icon":"shopify:\/\/shop_images\/tap_icon_abfcc208-19cd-4fb5-8167-dcf741c15d48.png","main_title":"Custom printed tape","richtext":"<p>If you're looking for a way to reduce your shipping costs but still want to brand your products, consider printed packaging tapes.<br\/><br\/><a href=\"\/collections\/custom-printed-tape\" title=\"Custom Printed Tape\">View All<\/a><\/p>"}},"16082995275d67b2ad":{"type":"collection","disabled":true,"settings":{"alignment":"left_title","title":"Featured Products","collection":"polyken-tape-tapes-h-s","grid":4,"rows":2,"show_vendor":false,"show_view_all":false}},"1608534704118775f2":{"type":"about-section","settings":{"about_title":"A Total Tape Source","richtext":"<p>Customtapes.com offers the widest range of products with the shortest lead times. We are invested in the highest quality equipment and raw materials to ensure that you are always 100% satisfied with our work. <\/p><p>Specialty Tape Converting (CustomTapes.com) proudly supplies Tapes from 3M, Intertape, Tesa Tape, Shurtape, Cantech, Avery Dennison, Achem, Adchem, Nitto, Berry Plastics, Nashua, Permacel, Patco, and more. Tape from A to Z includes Aisle Marking & Dispenser, Aluminum Foil, Appliance, Application, ATG, UPVC Bag Sealing, Barricade, Bookbinding, Cable Path, Camouflage, Double Coated Carpet, Carton Sealing, Cellophane, Circuit Board, Conspicuity Tapes, Copper Foil, Custom Printed Tapes, Differential Adhesive, Double Coated, Die Cuts, Better pack Dispensers & Replacement Parts. Double Coated, Dry Vinyl, Duct, Electrical, Electroplating, Extended Liner, Filament, Flat back Paper, Fluorescent, Foam, Foam Strips Pieces, Foil, Friction, Gaffers,Glass Cloth, Glow in the Dark, Photoluminescent, Graphic Arts, Gummed Paper,Hazard Identification, High Bond, High Temperature Masking, Hook & Loop,Invisible Mending, Kraft Paper, Label Protection\/Lamination, Lead Foil,Magnetic, Masking, Mending, Mylar Polyesters, Office Supply, Photoluminescent, Pipe Thread Seal, Teflon\/PTFE, Pipe Wrap, Polyester Film, LDPE Polyethylene Film, Polyimide, Pre-mask tapes, Custom Printed Carton Sealing, Produce tape, PVC Bag Seal, Reflective Tapes, Safety, Security, Silicone Splicing Skid Resistant tapes, Skived PTFE Teflon, Splicing, Strapping, Striped Safety, Tamper Evident, Teflon Glass Fabric, Transfer Film, UHMW, Velcro, SPVC & UPVC Vinyl, Water Activated Paper tapes, and Window Glazing Tapes.<\/p>","image01":"shopify:\/\/shop_images\/about01.png","image02":"shopify:\/\/shop_images\/about02.png","image03":"shopify:\/\/shop_images\/about03.png","image04":"shopify:\/\/shop_images\/about04.png","image05":"shopify:\/\/shop_images\/about05.png","about_title01":"About Us","richtext01":"<p>We have been in the Pressure Sensitive Tape Distribution & converting business since 1967. It is often asked of us why we need to represent and convert tapes from so many tape manufacturers? The answer is actually pretty simple, we do this so that we can meet your needs, but also meet your needs with the best possible tape product or solution.<\/p><p><strong>Do you have a tape application, problem or question?<br\/>Contact us today for the best options!<\/strong><\/p>","link_btn":"Read More","link":"shopify:\/\/pages\/about-us","image06":"shopify:\/\/shop_images\/about06.png"}},"product-template":{"type":"product-template","settings":{"show_quantity_selector":true,"show_vendor":false,"enable_payment_button":false,"show_share_buttons":true,"media_size":"medium","enable_image_zoom":true,"enable_video_looping":false}},"product-recommendations":{"type":"product-recommendations","settings":{"show_product_recommendations":true,"heading":"You may also like","show_vendor":false}},"list-collections-template":{"type":"list-collections-template","settings":{"display_type":"all","sort":"alphabetical","grid":3}},"cart-template":{"type":"cart-template","settings":{"cart_ajax_enable":true,"cart_notes_enable":true}},"collection-template":{"type":"collection-template","settings":{"layout":"grid","grid":4,"rows":2,"show_collection_image":true,"show_vendor":false,"sort_enable":true,"tags_enable":true}}},"content_for_index":["160829130466437723","16082851108cc9cac9","collection","1608299516096e3331","16082995275d67b2ad","1608534704118775f2"],"blocks":{"15573056287721514228":{"type":"shopify:\/\/apps\/json-ld-for-seo\/blocks\/app-embed\/3fcb4f45-bdde-43fd-84ae-8006cdcd1028","disabled":false,"settings":{}},"14656832010101544780":{"type":"shopify:\/\/apps\/advanced-product-options\/blocks\/app-embed-block\/a1199153-7462-4b5b-8a80-f0eefba85e99","disabled":true,"settings":{}},"14082181514032464150":{"type":"shopify:\/\/apps\/request-a-quote-hide-prices\/blocks\/omgrfq_script\/5f4ac0e6-8a57-4f3d-853e-0194eab86273","disabled":false,"settings":{"omg_product_per_page":12,"omg_feature_collection":"","omg_feature_product_per_page":4,"omg_search_product_per_page":24}}}},"presets":{"Default":{"sections":{"header":{"type":"header","settings":{}},"hero-1":{"type":"hero","settings":{"hero_size":"large","text_size":"large"}},"feature-row":{"type":"feature-row","settings":{}},"feature-columns":{"type":"feature-columns","blocks":{"feature-columns-0":{"type":"text_block","settings":{}},"feature-columns-1":{"type":"text_block","settings":{}},"feature-columns-2":{"type":"text_block","settings":{}}},"block_order":["feature-columns-0","feature-columns-1","feature-columns-2"],"settings":{"title":""}},"collection":{"type":"collection","settings":{"grid":4}},"hero-2":{"type":"hero","settings":{"text_size":"large"}},"quotes":{"type":"quotes","blocks":{"quotes-0":{"type":"quote","settings":{}},"quotes-1":{"type":"quote","settings":{}},"quotes-2":{"type":"quote","settings":{}}},"block_order":["quotes-0","quotes-1","quotes-2"],"settings":{"title":""}},"image-bar":{"type":"image-bar","blocks":{"image-bar-0":{"type":"image","settings":{}},"image-bar-1":{"type":"image","settings":{}},"image-bar-2":{"type":"image","settings":{}}},"block_order":["image-bar-0","image-bar-1","image-bar-2"],"settings":{}},"footer":{"type":"footer","blocks":{"footer-0":{"type":"link_list","settings":{}},"footer-1":{"type":"newsletter","settings":{}}},"block_order":["footer-0","footer-1"],"settings":{"show_payment_icons":true}}},"content_for_index":["hero-1","feature-row","feature-columns","collection","hero-2","quotes","image-bar"]},"Light":{"color_text":"#162950","color_body_text":"#6d6d6d","color_sale_text":"#DA2F0C","color_borders":"#e4e4e4","color_button":"#DA2F0C","color_button_text":"#ffffff","color_small_button_text_border":"#162950","color_text_field":"#ffffff","color_text_field_text":"#162950","color_text_field_border":"#909090","color_image_overlay_text":"#ffffff","color_image_overlay":"#3d3d3d","image_overlay_opacity":40,"color_body_bg":"#f8f8f8","type_header_font":"muli_n6","type_header_base_size":26,"type_base_font":"muli_n4","type_base_size":18,"share_facebook":true,"share_twitter":true,"share_pinterest":true,"social_twitter_link":"","social_facebook_link":"","social_pinterest_link":"","social_instagram_link":"","social_tumblr_link":"","social_snapchat_link":"","social_youtube_link":"","social_vimeo_link":"","favicon":"","checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"small","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#e8f3f6","checkout_heading_font":"Roboto","checkout_body_font":"Source Sans Pro","checkout_accent_color":"#1990c6","checkout_button_color":"#23314e","checkout_error_color":"#ff6d6d","sections":{"header":{"type":"header","settings":{"align_logo":"left","logo":"","logo_max_width":135,"main_linklist":"main-menu","message":true,"color_bg":"#162950","color_text":"#ffffff"}},"hero":{"type":"hero","settings":{"alignment":"center","hero_size":"x-large","text_size":"large"}},"slideshow":{"type":"slideshow","blocks":{"slideshow-0":{"type":"image","settings":{"image":"","alignment":"center center"}},"1492095993817":{"type":"image","settings":{"image":"","alignment":"center"}}},"block_order":["slideshow-0","1492095993817"],"settings":{"slideshow_height":"medium","text_size":"medium","autorotate":false,"autorotate_speed":5}},"featured-collections":{"type":"collection","settings":{"grid":3,"rows":1,"show_vendor":true,"show_view_all":true}},"product-template":{"type":"product-template","settings":{"show_quantity_selector":false,"show_vendor":false,"show_share_buttons":true,"media_size":"medium","enable_image_zoom":true,"enable_video_looping":false}},"collection-template":{"type":"collection-template","settings":{"layout":"grid","grid":2,"rows":2,"show_collection_image":true,"show_vendor":false,"sort_enable":true,"tags_enable":true}},"1492033809691":{"type":"map","settings":{}},"1492033877875":{"type":"quotes","blocks":{"1492033877875-0":{"type":"quote","settings":{}}},"block_order":["1492033877875-0"],"settings":{}},"1492033924902":{"type":"custom-content","blocks":{"1492033924902-0":{"type":"text","settings":{"width":"100%","alignment":"center","align_text":"center"}}},"block_order":["1492033924902-0"],"settings":{"title":""}},"1492096252560":{"type":"collection-list","blocks":{"1492096252560-0":{"type":"featured_collection","settings":{}},"1492096252560-1":{"type":"featured_collection","settings":{}},"1492096252560-2":{"type":"featured_collection","settings":{}}},"block_order":["1492096252560-0","1492096252560-1","1492096252560-2"],"settings":{"grid":3}},"blog-template":{"type":"blog-template","settings":{"layout":"grid","blog_show_author":true,"blog_show_date":false}},"article-template":{"type":"article-template","settings":{"blog_show_author":true,"blog_show_date":true,"show_share_buttons":true}},"cart-template":{"type":"cart-template","settings":{"cart_notes_enable":false}},"footer":{"type":"footer","blocks":{"link_list":{"type":"link_list","settings":{}},"text":{"type":"text","settings":{}},"newsletter":{"type":"newsletter","settings":{}}},"block_order":["link_list","text","newsletter"],"settings":{"color_footer_bg":"#f8f8f8","color_footer_text":"#6d6d6d"}}},"content_for_index":["hero","featured-collections","slideshow","1492033924902","1492096252560","1492033877875","1492033809691"]}}}
+{
+  "current": {
+    "color_button": "#1d62a5",
+    "type_header_font": "lato_n4",
+    "type_base_font": "roboto_n4",
+    "social_twitter_link": "https:\/\/twitter.com\/",
+    "social_facebook_link": "https:\/\/www.facebook.com\/\/CustomPrintedTape",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/",
+    "social_instagram_link": "https:\/\/instagram.com\/CustomPrintedTape",
+    "social_youtube_link": "https:\/\/www.youtube.com\/",
+    "favicon": "shopify:\/\/shop_images\/logo.png",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/site_logo.jpg",
+          "logo_max_width": 220,
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": false,
+          "message_text": "Due to raw material delays from several manufacturers, You may see alternative product suggestions",
+          "message_link": "",
+          "color_bg": "#000000",
+          "color_text": "#cccccc"
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "settings": {
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": ""
+        }
+      },
+      "feature-columns": {
+        "type": "feature-columns",
+        "blocks": {
+          "feature-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
+          },
+          "feature-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
+          },
+          "feature-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature-columns-0",
+          "feature-columns-1",
+          "feature-columns-2"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "left"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "alignment": "right_title",
+          "title": "New Products",
+          "collection": "understanding-custom-printed-packaging-and-paper-tapes",
+          "grid": 4,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "blocks": {
+          "quotes-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "quotes-0",
+          "quotes-1",
+          "quotes-2"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "image-bar": {
+        "type": "image-bar",
+        "blocks": {
+          "image-bar-0": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          },
+          "image-bar-1": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          },
+          "image-bar-2": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "image-bar-0",
+          "image-bar-1",
+          "image-bar-2"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "731e75a8-0263-43f4-b4f5-205c7c1b8696": {
+            "type": "link_list",
+            "settings": {
+              "title": "Collections",
+              "menu": "collections"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "title": "Quick links",
+              "menu": "quick-links"
+            }
+          },
+          "f9386199-dd00-44ec-84e4-5a3ec2156cc2": {
+            "type": "text",
+            "settings": {
+              "title": "Contact Us at CustomTapes.com",
+              "text": "<p>CustomTapes.com<br\/>Minneapolis, MN<\/p><p>1 877 891-7572<\/p>"
+            }
+          },
+          "fc90c252-8d73-4e9d-9750-8f87594d3fac": {
+            "type": "social",
+            "settings": {
+              "title": "Follow CustomTapes"
+            }
+          },
+          "footer-1": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Custom Tapes Newsletter"
+            }
+          }
+        },
+        "block_order": [
+          "731e75a8-0263-43f4-b4f5-205c7c1b8696",
+          "footer-0",
+          "f9386199-dd00-44ec-84e4-5a3ec2156cc2",
+          "fc90c252-8d73-4e9d-9750-8f87594d3fac",
+          "footer-1"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "color_footer_bg": "#f6f6f6",
+          "color_footer_text": "#333232",
+          "show_locale_selector": false,
+          "show_currency_selector": false
+        }
+      },
+      "16082851108cc9cac9": {
+        "type": "categories_section",
+        "blocks": {
+          "16082851108cc9cac9-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cate_01.png",
+              "cta_label": "Tapes A-G",
+              "html_code": "<p><a href=\"\/collections\/atg-gun-tapes-a-g\">ATG Gun<\/a> <span class=\"bull\">•<\/span> <a href=\"\/collections\/aerospace-tapes\">Aerospace Tapes<\/a> <br> <a href=\"\/collections\/aisle-marking-tape-tapes-a-g\">Aisle Marking Tape<\/a> <span class=\"bull\">•<\/span> <a href=\"\/collections\/tapes-a-g\">More<\/a><\/p>",
+              "link_btn": "shop now",
+              "link": "shopify:\/\/collections\/tapes-a-g"
+            }
+          },
+          "80ff04f9-e97b-4a19-908b-4525029aed02": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cate_02.png",
+              "cta_label": "TAPES H-S",
+              "html_code": "<p><a href=\"\/collections\/polyken-tape-tapes-h-s\">Polyken Tape<\/a> <span class=\"bull\">•<\/span> <a href=\"\/collections\/scapa-tape-tapes-h-s\">Scapa Tape<\/a><br> <a href=\"\/collections\/masking-tape-tapes-h-s\">Masking Tape<\/a> <span class=\"bull\">•<\/span> <a href=\"\/collections\/tapes-h-s\">More<\/a><\/p>",
+              "link_btn": "Shop Now",
+              "link": "shopify:\/\/collections\/tapes-h-s"
+            }
+          },
+          "adee494d-49b0-4fc0-93df-9c95f1683ca4": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cate_03.png",
+              "cta_label": "TAPES T-Z",
+              "html_code": "<p><a href=\"\/collections\/tamper-evident-tape-tapes-t-z\">Tamper Evident Tape<\/a><span class=\"bull\">•<\/span><a href=\"\/collections\/teflon-tapes-tapes-t-z\">Teflon Tapes<\/a> <br> <a href=\"\/collections\/water-activated-tapes-tapes-t-z\">Water Activated Tapes<\/a> <span class=\"bull\">•<\/span> <a href=\"\/collections\/tapes-t-z\">More<\/a><\/p>",
+              "link_btn": "Shop Now",
+              "link": "shopify:\/\/collections\/tapes-t-z"
+            }
+          }
+        },
+        "block_order": [
+          "16082851108cc9cac9-0",
+          "80ff04f9-e97b-4a19-908b-4525029aed02",
+          "adee494d-49b0-4fc0-93df-9c95f1683ca4"
+        ],
+        "settings": {
+          "html_code": "<h2>\n<span class=\"red_clr\">A TOTAL TAPE SOURCE<\/span> SINCE 1967<\/h2>\n<p>Since 1967, we have offered the widest range of tape brands to meet your every need. Our experience in the Pressure Sensitive Tape industry makes us among the most qualified to provide the best solutions. We stock tapes from over 20 manufacturers. In addition to our standard products Specialty Tape Converting Die Cuts, Slits, Rewinds, laminates and produces all custom printed tape in house. If you just prefer a <strong><em>Tape Price Check<\/em><\/strong> or a <strong><em>Quick quote?<\/em><\/strong> Inquire below<\/p>"
+        }
+      },
+      "160829130466437723": {
+        "type": "home-slider",
+        "blocks": {
+          "160829130466437723-0": {
+            "type": "image",
+            "settings": {
+              "desktop_image": "shopify:\/\/shop_images\/banner_new.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/banner-mobile-01.jpg",
+              "link": "shopify:\/\/collections"
+            }
+          },
+          "ba82c4ae-8731-4862-a2d1-94754cbbcc94": {
+            "type": "image",
+            "settings": {
+              "desktop_image": "shopify:\/\/shop_images\/banner_new.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/banner-mobile-01.jpg",
+              "link": "shopify:\/\/collections"
+            }
+          }
+        },
+        "block_order": [
+          "160829130466437723-0",
+          "ba82c4ae-8731-4862-a2d1-94754cbbcc94"
+        ],
+        "settings": {
+        }
+      },
+      "1608299516096e3331": {
+        "type": "overlap_categories_section",
+        "blocks": {
+          "1608299516096e3331-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/tap_01.png",
+              "cta_label": "Custom Printed Film Tape",
+              "link_btn": "Shop Now",
+              "link": "shopify:\/\/collections\/custom-printed-film-tape-custom-printed-tape"
+            }
+          },
+          "e888ac16-35f9-4256-89fc-c6aa5df88ba3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/tap_02.png",
+              "cta_label": "Custom Printed Kraft",
+              "link_btn": "Shop Now",
+              "link": "#"
+            }
+          },
+          "aa504e6d-50b5-477c-9674-4ea870ad0924": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/tap_03.png",
+              "cta_label": "Printed Filament Tape",
+              "link_btn": "Shop Now",
+              "link": "shopify:\/\/collections\/printed-filament-tape-custom-printed-tape"
+            }
+          }
+        },
+        "block_order": [
+          "1608299516096e3331-0",
+          "e888ac16-35f9-4256-89fc-c6aa5df88ba3",
+          "aa504e6d-50b5-477c-9674-4ea870ad0924"
+        ],
+        "settings": {
+          "image_main": "shopify:\/\/shop_images\/overlap_img.jpg",
+          "image_icon": "shopify:\/\/shop_images\/tap_icon_abfcc208-19cd-4fb5-8167-dcf741c15d48.png",
+          "main_title": "Custom printed tape",
+          "richtext": "<p>If you're looking for a way to reduce your shipping costs but still want to brand your products, consider printed packaging tapes.<br\/><br\/><a href=\"\/collections\/custom-printed-tape\" title=\"Custom Printed Tape\">View All<\/a><\/p>"
+        }
+      },
+      "16082995275d67b2ad": {
+        "type": "collection",
+        "disabled": true,
+        "settings": {
+          "alignment": "left_title",
+          "title": "Featured Products",
+          "collection": "polyken-tape-tapes-h-s",
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "1608534704118775f2": {
+        "type": "about-section",
+        "settings": {
+          "about_title": "A Total Tape Source",
+          "richtext": "<p>Customtapes.com offers the widest range of products with the shortest lead times. We are invested in the highest quality equipment and raw materials to ensure that you are always 100% satisfied with our work. <\/p><p>Specialty Tape Converting (CustomTapes.com) proudly supplies Tapes from 3M, Intertape, Tesa Tape, Shurtape, Cantech, Avery Dennison, Achem, Adchem, Nitto, Berry Plastics, Nashua, Permacel, Patco, and more. Tape from A to Z includes Aisle Marking & Dispenser, Aluminum Foil, Appliance, Application, ATG, UPVC Bag Sealing, Barricade, Bookbinding, Cable Path, Camouflage, Double Coated Carpet, Carton Sealing, Cellophane, Circuit Board, Conspicuity Tapes, Copper Foil, Custom Printed Tapes, Differential Adhesive, Double Coated, Die Cuts, Better pack Dispensers & Replacement Parts. Double Coated, Dry Vinyl, Duct, Electrical, Electroplating, Extended Liner, Filament, Flat back Paper, Fluorescent, Foam, Foam Strips Pieces, Foil, Friction, Gaffers,Glass Cloth, Glow in the Dark, Photoluminescent, Graphic Arts, Gummed Paper,Hazard Identification, High Bond, High Temperature Masking, Hook & Loop,Invisible Mending, Kraft Paper, Label Protection\/Lamination, Lead Foil,Magnetic, Masking, Mending, Mylar Polyesters, Office Supply, Photoluminescent, Pipe Thread Seal, Teflon\/PTFE, Pipe Wrap, Polyester Film, LDPE Polyethylene Film, Polyimide, Pre-mask tapes, Custom Printed Carton Sealing, Produce tape, PVC Bag Seal, Reflective Tapes, Safety, Security, Silicone Splicing Skid Resistant tapes, Skived PTFE Teflon, Splicing, Strapping, Striped Safety, Tamper Evident, Teflon Glass Fabric, Transfer Film, UHMW, Velcro, SPVC & UPVC Vinyl, Water Activated Paper tapes, and Window Glazing Tapes.<\/p>",
+          "image01": "shopify:\/\/shop_images\/about01.png",
+          "image02": "shopify:\/\/shop_images\/about02.png",
+          "image03": "shopify:\/\/shop_images\/about03.png",
+          "image04": "shopify:\/\/shop_images\/about04.png",
+          "image05": "shopify:\/\/shop_images\/about05.png",
+          "about_title01": "About Us",
+          "richtext01": "<p>We have been in the Pressure Sensitive Tape Distribution & converting business since 1967. It is often asked of us why we need to represent and convert tapes from so many tape manufacturers? The answer is actually pretty simple, we do this so that we can meet your needs, but also meet your needs with the best possible tape product or solution.<\/p><p><strong>Do you have a tape application, problem or question?<br\/>Contact us today for the best options!<\/strong><\/p>",
+          "link_btn": "Read More",
+          "link": "shopify:\/\/pages\/about-us",
+          "image06": "shopify:\/\/shop_images\/about06.png"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_vendor": false,
+          "enable_payment_button": false,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": true
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      }
+    },
+    "content_for_index": [
+      "160829130466437723",
+      "16082851108cc9cac9",
+      "collection",
+      "1608299516096e3331",
+      "16082995275d67b2ad",
+      "1608534704118775f2"
+    ],
+    "blocks": {
+      "15573056287721514228": {
+        "type": "shopify:\/\/apps\/json-ld-for-seo\/blocks\/app-embed\/3fcb4f45-bdde-43fd-84ae-8006cdcd1028",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "14656832010101544780": {
+        "type": "shopify:\/\/apps\/advanced-product-options\/blocks\/app-embed-block\/a1199153-7462-4b5b-8a80-f0eefba85e99",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "14082181514032464150": {
+        "type": "shopify:\/\/apps\/request-a-quote-hide-prices\/blocks\/omgrfq_script\/5f4ac0e6-8a57-4f3d-853e-0194eab86273",
+        "disabled": false,
+        "settings": {
+          "omg_product_per_page": 12,
+          "omg_feature_collection": "",
+          "omg_feature_product_per_page": 4,
+          "omg_search_product_per_page": 24
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+          }
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {
+          }
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {
+              }
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {
+              }
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {
+          }
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {
+          }
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}
