@@ -232,6 +232,73 @@
 
   
   <script src="{{ 'owl.carousel.min.js' | asset_url }}"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function() {
+      if (jQuery(".product-slider .product-list").length>0) {
+        jQuery(".product-slider .product-list").owlCarousel({
+          items : 3,
+          itemsCustom : false,
+          scrollPerPage: true,
+          loop: true,
+          slideSpeed: 500,
+          stopOnHover: true,
+          itemsDesktop : [1199,3],
+          itemsDesktopSmall : [991,2],
+          itemsTablet: [767,2],
+          itemsTabletSmall: false,
+          itemsMobile : [479,1],
+          itemsScaleUp : true,
+          pagination : false,
+          navigation : true,
+          navigationText : ["prev","next"]
+
+        });
+      }
+
+      if (jQuery(".home_slider .slider_list").length>0) {
+        jQuery(".home_slider .slider_list").owlCarousel({
+          items : 1,
+          itemsCustom : false,
+          scrollPerPage: true,
+          loop: true,
+          slideSpeed: 500,
+          stopOnHover: true,
+          itemsDesktop : [1199,1],
+          itemsDesktopSmall : [991,1],
+          itemsTablet: [767,1],
+          itemsTabletSmall: false,
+          itemsMobile : [479,1],
+          itemsScaleUp : true,
+          pagination : false,
+          navigation : true,
+          navigationText : ["prev","next"]
+
+        });
+      }
+
+      if (jQuery(".related-slider .product-list").length>0) {
+        jQuery(".related-slider .product-list").owlCarousel({
+          items : 4,
+          itemsCustom : false,
+          scrollPerPage: true,
+          loop: true,
+          slideSpeed: 500,
+          stopOnHover: true,
+          itemsDesktop : [1199,4],
+          itemsDesktopSmall : [991,3],
+          itemsTablet: [767,2],
+          itemsTabletSmall: false,
+          itemsMobile : [479,1],
+          itemsScaleUp : true,
+          pagination : false,
+          navigation : true,
+          navigationText : ["prev","next"]
+
+        });
+      }
+    });
+ 
+  </script> 
 {% include 'mw_PO_objects' %}  
 <script src="//code.tidio.co/g97ed6ujc3vcn7w6xlcgnnhdgilpvaq3.js" async></script> 
 
