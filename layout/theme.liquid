@@ -170,7 +170,7 @@
     {{ base_font_italic | font_face: font_display: 'swap' }}
     {{ base_font_bold_italic | font_face: font_display: 'swap' }}
   </style>
-  <script>
+  <script type="lazyload2">
     var theme = {
       breakpoints: {
         medium: 750,
@@ -232,12 +232,12 @@
   {%- if request.page_type contains 'customers/' -%}
     <script type="lazyload2" data-src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+  <script type="lazyload2" data-src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="lazyload2" data-src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
   <script type="lazyload2" data-src="{{ 'lazysizes.js' | asset_url }}" async="async"></script>
 
 
-  <script type="text/javascript">
+  <script type="lazyload2">
     if (window.MSInputMethodContext && document.documentMode) {
       var scripts = document.getElementsByTagName('script')[0];
       var polyfill = document.createElement("script");
