@@ -22,7 +22,7 @@
     {% include 'image-style', image: preview_image, height: max_height, wrapper_id: wrapper_id, img_id: img_id %}
   {% endunless %}
 
-  <div class="product-card__image-with-placeholder-wrapper" data-image-loading-animation>
+  <div class="product-card__image-with-placeholder-wrapper">
     <div id="{{ wrapper_id }}" class="grid-view-item__image-wrapper product-card__image-wrapper js">
       <div style="padding-top:{% unless preview_image == blank %}{{ 1 | divided_by: preview_image.aspect_ratio | times: 100 }}%{% else %}100%{% endunless %};">
         <img id="{{ img_id }}"
