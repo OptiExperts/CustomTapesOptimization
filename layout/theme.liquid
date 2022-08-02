@@ -172,15 +172,13 @@
   </script> 
   {% include 'vital-loader' %}
   {{ content_for_header }}
-  <!-- Global site tag (gtag.js) - Google Analytics 3rd jan 2019 (UA-131685318-1 moved to GTM 6/28/21)-->
-  
-  <!-- Google Tag Manager -->
+
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-KWQVQZG');</script>
-  <!-- End Google Tag Manager -->
+  
  
 <script type="text/javascript">
     var _paq = _paq || [];
@@ -195,18 +193,15 @@
     })();
 </script>
 
-
-
-
 {% render 'minmaxify-head' %}
 </head>
 
 <body class="template-{{ request.page_type | handle }}">
   
-  <!-- Google Tag Manager (noscript) -->
+  
   <noscript><iframe data-src="https://www.googletagmanager.com/ns.html?id=GTM-KWQVQZG"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+ 
 
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
@@ -307,8 +302,7 @@
  
   </script> 
 {% include 'mw_PO_objects' %}  
-<script src="//code.tidio.co/g97ed6ujc3vcn7w6xlcgnnhdgilpvaq3.js" async>  
-</script> <script src="{{ 'custom.min.js' | asset_url }}" defer></script> 
+<script src="//code.tidio.co/g97ed6ujc3vcn7w6xlcgnnhdgilpvaq3.js" async></script> 
 
 
   {% include 'spinstudio-init' %}
