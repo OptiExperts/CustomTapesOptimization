@@ -83,7 +83,7 @@
   </style>
   <link rel="stylesheet" data-href="{{ 'owl.carousel.css' | asset_url }}">
 
-{%capture pDescription%}
+
 <link data-href="{{ 'fonts-load.css' | asset_url }}" rel="stylesheet" type="text/css" media="all" />  
   {% comment %} <style>
     {{ header_font | font_face: font_display: 'swap' }}
@@ -94,11 +94,11 @@
     {{ base_font_bold_italic | font_face: font_display: 'swap' }}
   </style>{% endcomment %} 
 
-    {%endcapture%}
+
      <script>
      document.open();
-     if(window['\x6E\x61\x76\x69\x67\x61\x74\x6F\x72']['\x75\x73\x65\x72\x41\x67\x65\x6E\x74'].indexOf('\x43\x68\x72\x6F\x6D\x65\x2D\x4C\x69\x67\x68\x74\x68\x6F\x75\x73\x65') == -1 && window['\x6E\x61\x76\x69\x67\x61\x74\x6F\x72']['\x75\x73\x65\x72\x41\x67\x65\x6E\x74'].indexOf('X11') == -1 && window['\x6E\x61\x76\x69\x67\x61\x74\x6F\x72']['\x75\x73\x65\x72\x41\x67\x65\x6E\x74'].indexOf('GTmetrix') == -1) {
-     document.write({{pDescription | json}});}
+     
+     document.write({{pDescription | json}});
      else{}
      document.close();
      </script>
@@ -160,7 +160,7 @@
 
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
   </script>
-{%capture pDescription%}
+
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}
@@ -168,11 +168,11 @@
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'lazysizes.js' | asset_url }}" async="async"></script>
 
-    {%endcapture%}
+
      <script>
      document.open();
-     if(window['\x6E\x61\x76\x69\x67\x61\x74\x6F\x72']['\x75\x73\x65\x72\x41\x67\x65\x6E\x74'].indexOf('\x43\x68\x72\x6F\x6D\x65\x2D\x4C\x69\x67\x68\x74\x68\x6F\x75\x73\x65') == -1 && window['\x6E\x61\x76\x69\x67\x61\x74\x6F\x72']['\x75\x73\x65\x72\x41\x67\x65\x6E\x74'].indexOf('X11') == -1 && window['\x6E\x61\x76\x69\x67\x61\x74\x6F\x72']['\x75\x73\x65\x72\x41\x67\x65\x6E\x74'].indexOf('GTmetrix') == -1) {
-     document.write({{pDescription | json}});}
+     
+     document.write({{pDescription | json}});
      else{}
      document.close();
      </script>
@@ -187,9 +187,9 @@
     }
   </script> 
   {% include 'vital-loader' %}
-  {%comment%}{{ content_for_header }}{%endcomment%}{%include "custom"%}    
+  {{ content_for_header }}
   <!-- Global site tag (gtag.js) - Google Analytics 3rd jan 2019 (UA-131685318-1 moved to GTM 6/28/21)-->
-  {%capture pDescription%}
+  
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -197,14 +197,7 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-KWQVQZG');</script>
   <!-- End Google Tag Manager -->
-  {%endcapture%}
-     <script>
-     document.open();
-     if(window['\x6E\x61\x76\x69\x67\x61\x74\x6F\x72']['\x75\x73\x65\x72\x41\x67\x65\x6E\x74'].indexOf('\x43\x68\x72\x6F\x6D\x65\x2D\x4C\x69\x67\x68\x74\x68\x6F\x75\x73\x65') == -1 && window['\x6E\x61\x76\x69\x67\x61\x74\x6F\x72']['\x75\x73\x65\x72\x41\x67\x65\x6E\x74'].indexOf('X11') == -1 && window['\x6E\x61\x76\x69\x67\x61\x74\x6F\x72']['\x75\x73\x65\x72\x41\x67\x65\x6E\x74'].indexOf('GTmetrix') == -1) {
-     document.write({{pDescription | json}});}
-     else{}
-     document.close();
-     </script>
+ 
 <script type="text/javascript">
     var _paq = _paq || [];
     _paq.push(['trackPageView']);
@@ -328,12 +321,13 @@
       }
     });
  
-  </script> {%capture pDescription%}
-{% include 'mw_PO_objects' %}  <script data-src="//code.tidio.co/g97ed6ujc3vcn7w6xlcgnnhdgilpvaq3.js" async></script> <script src="{{ 'custom.min.js' | asset_url }}" defer></script> {%endcapture%}
-<script> document.open(); if(window['\x6E\x61\x76\x69\x67\x61\x74\x6F\x72']['\x75\x73\x65\x72\x41\x67\x65\x6E\x74'].indexOf('\x43\x68\x72\x6F\x6D\x65\x2D\x4C\x69\x67\x68\x74\x68\x6F\x75\x73\x65') == -1 && window['\x6E\x61\x76\x69\x67\x61\x74\x6F\x72']['\x75\x73\x65\x72\x41\x67\x65\x6E\x74'].indexOf('X11') == -1 && window['\x6E\x61\x76\x69\x67\x61\x74\x6F\x72']['\x75\x73\x65\x72\x41\x67\x65\x6E\x74'].indexOf('GTmetrix') == -1) { document.write({{pDescription | json}});} else{} document.close(); </script>
-  {% include 'spinstudio-init' %}
-  {{ 'gem.js' | asset_url | script_tag }} 
+  </script> 
+{% include 'mw_PO_objects' %}  
+<script data-src="//code.tidio.co/g97ed6ujc3vcn7w6xlcgnnhdgilpvaq3.js" async>  
+</script> <script src="{{ 'custom.min.js' | asset_url }}" defer></script> 
 
+
+  {% include 'spinstudio-init' %}
 <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=X4V5FW"></script>
   
   </body>
