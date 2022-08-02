@@ -1,0 +1,536 @@
+<style>
+.modal_price,
+.product-form--price-wrapper,
+.product-single__price,
+.product_single_price,
+.product-single__price-product-template,
+.prices,
+.price,
+.product-pricing,
+.product__price-container,
+.product--price,
+.product-price,
+.product-prices,
+.product__price,
+.price-box,
+.price-container,
+.price-list,
+.product-detail .price-area,
+.price_outer,
+#product-price,
+.price_range,
+.detail-price,
+.product-single__form-price,
+.data-price-wrapper,
+.product-single__meta-list,
+.product-single__prices,
+.ProductMeta__PriceList,
+.tt-price,
+.single_product__price,
+.pricearea,
+.product-item-caption-price,
+.card__price,
+.card__availability,
+#productPrice-product-template{
+    display: none;
+}
+</style>
+{{ 'omgrfq-chunk-vendors-app.js' | asset_url | script_tag }}
+
+<script id="OMG-custom-script">
+    const checkGlobal = setInterval(() =>{ 
+  if (window.OMGRFQGlobalVariables && __st) {
+      OMGWaitGlobalVariable();
+      clearInterval(checkGlobal);
+  }
+}, 50);
+function OMGWaitGlobalVariable(){
+  if (__st.p === 'product') {
+      omgrfq_productCollection[__st. rid].properties = {};
+      const checkRenderRadio = setInterval(() =>{ 
+          if (OMGRFQGlobalVariables.$jQueryLib('.mw-option-radio .mw_options_list input').length) {
+              OMGRFQGlobalVariables.$jQueryLib('.mw-option-radio .mw_options_list input').on('click', function() {
+                  const dataName = OMGRFQGlobalVariables.$jQueryLib(this).closest('.mw-option-radio').find('.mw_product_option_label').first().text().replace("*", ""),
+                  dataValue = OMGRFQGlobalVariables.$jQueryLib(this).val();
+                  omgrfq_productCollection[__st.rid].properties[`${dataName}`] = dataValue;
+                  setPriceNew()
+              })
+              clearInterval(checkRenderRadio);
+          }
+      })
+
+const checkRenderColor = setInterval(() =>{ 
+          if (OMGRFQGlobalVariables.$jQueryLib('.mw-option-swatch .swatch-option').length) {
+              OMGRFQGlobalVariables.$jQueryLib('.swatch-option').on('click', function() {
+                  const data = OMGRFQGlobalVariables.$jQueryLib(this).closest('.mw-option-swatch').find('.mw_product_option_label').first().text().replace("*", ""),
+                  array = data .split("- "),
+                  dataName = array[0],
+                  dataValue = array[1];
+                  omgrfq_productCollection[__st.rid].properties[`${dataName}`] = dataValue;
+                  setPriceNew()
+              })
+              clearInterval(checkRenderColor);
+          }
+      })
+  }
+
+  function setPriceNew(){
+    setTimeout(() => {
+ const queryString = window.location.search
+        const urlParams = new URLSearchParams(queryString)
+        const variantId = urlParams.get('variant');
+        let getMoneyPrice = OMGRFQGlobalVariables.$jQueryLib('.price__regular .productPrice').text().replace(',', '');
+        getMoneyPrice = getMoneyPrice.match(/\d+(?:\.\d+)?/g)[0];
+        const priceProductFirst = Number(getMoneyPrice);
+        for (const variant of omgrfq_productCollection[__st.rid].variants) {
+          if (variant.id == variantId) {
+              variant.price = priceProductFirst * 100;
+              console.log(variant.price)
+          }
+        }
+    }, 300)
+  }
+}
+</script>
+<script id="omgrfq-script" type='text/javascript' data-type="custom">
+    var OMGRFQConfigs = {"app_url":"https:\/\/apps.omegatheme.com\/quote-list","store":"http-www-customtapes-com.myshopify.com","theme_id":131802169590,"settings":{"condition_product_rule":{"enable_all_products":0,"enable_manual_products":1,"manual_products":[{"id":"6118500761784","title":"3M-Matic a20 Adjustable Case Sealer"},{"id":"6118502564024","title":"3M 8810 Thermally Conductive Adhesive Transfer Tape"}],"enable_automate_products":0,"automate_kind_condition":"AND","addConditions":[{"selectedType":"title","isChoosen":"contain","valueCondition":"","isString":true,"isNumber":false,"isCustomer":false,"isInventory":false,"isTime":false}]},"general_settings":{"sku_text":"SKU: {sku_value}","timezone":"UTC","customcss":"","email_vat":0,"form_data":[{"max":"100","min":"0","req":"1","send":"1","type":"text","input":"text","label":"Name","width":"50","placeholder":"Enter your name"},{"max":"100","min":"0","req":"1","send":"1","type":"email","input":"text","label":"Email","width":"50","placeholder":"Enter Email"},{"max":"100","min":"0","req":"1","send":"1","type":"textarea","input":"text","label":"Message","width":"100","placeholder":"Message"}],"added_code":1,"enable_app":1,"ggsite_key":{"v2":"","v3":""},"hide_price":0,"price_text":"Price","button_text":"Request Pricing","option_text":"Option","remove_text":"Remove","choosen_page":0,"message_text":"Message","product_text":"Product","saleman_type":0,"store_themes":"131802169590","calendar_lang":"en","check_install":0,"custom_fields":"","hide_add_cart":"1","quantity_text":"Quantity","redirect_link":"","typeof_dialog":1,"vat_form_text":"Vat","calendar_theme":"airbnb","customize_data":{"button_add_quote":{"font_size":"Default","border_radius":"Default","border_color":"rgba(0, 0, 0, 0)","color":"rgba(0, 0, 0, 0)","bg_color":"rgba(0, 0, 0, 0)","text_align":"center","text_bold":false,"text_italic":false,"text_underline":false},"button_view_quotes":{"font_size":"Default","border_radius":"Default","border_color":"rgba(0, 0, 0, 0)","color":"rgba(0, 0, 0, 0)","bg_color":"rgba(0, 0, 0, 0)","text_align":"center","text_bold":false,"text_italic":false,"text_underline":false},"button_view_history_quotes":{"font_size":"Default","border_radius":"Default","border_color":"rgba(0, 0, 0, 0)","color":"rgba(0, 0, 0, 0)","bg_color":"rgba(0, 0, 0, 0)","text_align":"center","text_bold":false,"text_italic":false,"text_underline":false},"isDefault":true},"quotes_saleman":10,"show_next_cart":0,"type_recaptcha":0,"allow_out_stock":"1","auto_open_popup":1,"position_button":"auto","submit_all_cart":0,"total_form_text":"Total","tracking_source":0,"view_quote_mess":"View Quote","viewed_products":0,"empty_quote_mess":"Your quote is currently empty","show_app_in_page":0,"show_product_sku":0,"show_total_price":"0","show_view_button":1,"total_price_text":"Total Price","auto_create_draft":0,"hide_option_table":0,"hide_remove_table":0,"last_time_install":"","customer_data_sync":0,"is_switch_to_theme":"1","show_product_price":0,"user_confirm_email":0,"view_button_manual":0,"hide_quantity_table":0,"message_placeholder":"Add Notes","name_note_attribute":"Request A Quote","popup_shopping_mess":"Continue Shopping","sub_total_form_text":"Subtotal","submit_form_add_one":0,"submit_quote_button":"Submit Request","success_submit_mess":"Thank you for submitting a request a quote!","view_quote_position":{"side":"right","margin_top":{"unit":"percentage","amount":5}},"properties_form_text":"Properties","show_product_message":0,"show_properties_form":0,"use_google_recaptcha":0,"hide_price_collection":"1","submitting_quote_mess":"Submitting Request","unsuccess_submit_mess":"Error when submitting a request a quote!","add_quote_success_mess":"Add product to quote successfully!","show_view_button_empty":1,"allow_collection_button":0,"custom_element_position":"","user_confirm_email_body":"<p>Hello {!! email_information !!}<\/p>\n                                        <p>Please confirm your submit quote by click in this link:<br \/>\n                                        <a class=\"shop_active\" href=\"{!! quote_link_confirm !!}\" target=\"_blank\">{!! quote_link_confirm !!}<\/a><\/p>\n                                        <p><strong>Note:<\/strong> If you not received any email after active please click this link again<\/p>","user_confirm_email_text":"Your confirm quote has been sent into your email","hide_add_cart_collection":0,"submit_form_add_one_text":"Only add 1 product to your submit quote form","view_history_quotes_mess":"View History Quotes","required_products_message":0,"show_total_price_products":0,"show_history_quotes_button":1,"limit_product_collection_page":12,"request_quote_page_title_text":"Request A Quote","enable_customer_rule":false,"offered_price_text":"Offered price"},"uninstall_reason":"","enable_app":"1","version_app":"1.0.0","shop_info":"{\"id\":51865387192,\"name\":\"Custom Tapes\",\"email\":\"tom@customtapes.com\",\"domain\":\"customtapes.com\",\"province\":\"Minnesota\",\"country\":\"US\",\"address1\":\"2837 Anthony Lane South\",\"zip\":\"55418\",\"city\":\"Minneapolis\",\"source\":null,\"phone\":\"8778917572\",\"latitude\":45.018206300000003,\"longitude\":-93.208082699999991,\"primary_locale\":\"en\",\"address2\":\"\",\"created_at\":\"2020-12-14T01:08:00-06:00\",\"updated_at\":\"2022-05-02T15:38:27-05:00\",\"country_code\":\"US\",\"country_name\":\"United States\",\"currency\":\"USD\",\"customer_email\":\"Support@customtapes.com\",\"timezone\":\"(GMT-06:00) America\\\/Chicago\",\"iana_timezone\":\"America\\\/Chicago\",\"shop_owner\":\"Thomas Coppo\",\"money_format\":\"${{amount}}\",\"money_with_currency_format\":\"${{amount}} USD\",\"weight_unit\":\"lb\",\"province_code\":\"MN\",\"taxes_included\":false,\"auto_configure_tax_inclusivity\":null,\"tax_shipping\":null,\"county_taxes\":true,\"plan_display_name\":\"Shopify\",\"plan_name\":\"professional\",\"has_discounts\":true,\"has_gift_cards\":false,\"myshopify_domain\":\"http-www-customtapes-com.myshopify.com\",\"google_apps_domain\":null,\"google_apps_login_enabled\":null,\"money_in_emails_format\":\"${{amount}}\",\"money_with_currency_in_emails_format\":\"${{amount}} USD\",\"eligible_for_payments\":true,\"requires_extra_payments_agreement\":false,\"password_enabled\":false,\"has_storefront\":true,\"eligible_for_card_reader_giveaway\":true,\"finances\":true,\"primary_location_id\":58364264632,\"cookie_consent_level\":\"implicit\",\"visitor_tracking_consent_preference\":\"allow_all\",\"checkout_api_supported\":true,\"multi_location_enabled\":true,\"setup_required\":false,\"pre_launch_enabled\":false,\"enabled_presentment_currencies\":[\"USD\"]}","plan_price":"premium","limit_email":"5","support_settings":"","hide_price_settings":{"id":"2951","shop":"http-www-customtapes-com.myshopify.com","hide_price":"1","follow_quote":"1","applied_customers_mode":"1","applied_products_mode":"1","to_see_price":"0","hide_price_show_text":null,"hide_price_enter_pass":null,"applied_customers_tags":[],"applied_products_tags":[],"applied_specific_products":[],"applied_products_collections":[]}},"theme":"qeretail -- opt","currency":"${{amount}}","abTests":{"restructure_app_Oct_2020":true,"user_email_authen_oct_2020":true,"customer_data_sync_shopify_nov_2020":true,"log_history_quote_nov_2020":true,"choosen_page_quote_nov_2020":true,"restructure_store_app_dec_2020":true,"email_template_form_dec_2020":true,"request_a_quotes_page_jan_2021":true,"draft_quote_feature_mar_2021":true,"debug_front_by_shop_mar_2021":false,"intergrate_slack_app_apr_2021":true,"multiple_language_apr_2021":false,"abandoned_quote_may_2021":true,"email_template_may_2021":true,"customer_rule_may_2021":true,"fetch_email_june_2021":false,"export_quote_list_may_2021":true,"analytics_order_country_may_2021":true,"e_sign_jun_2021":true,"pdf_template_june_2021":true,"discount_quantity_app_Aug_2021":false,"simple_sign_july_2021":false,"survey_improve_quote_Aug_2021":true,"hide_price_rule_Nov_2021":true,"upgrade_price_feb_2022":true,"guide_tour_Feb_2022":false,"customer_data_sync_Feb_2022":false,"gmail_api_Feb_2022":true,"quote_theme_app_extension_feb_2022":true,"export_quote_pdf_Mar_2022":true,"email_template_new_Mar_2022":true,"product_tags_type_apr_2022":false}};
+    var OMGQuotesJquery = null;
+    var appQuotesSettings = Object.assign({}, OMGRFQConfigs.settings.email_settings, OMGRFQConfigs.settings.general_settings, OMGRFQConfigs.settings.condition_product_rule);
+    var hidePriceSpecialClass = '.omgrfq-hide-price-special';
+    var isProductHidePriceLoad = false;
+    let isAppShow = false;
+    let OMGQuoteExistsScriptTags = 0;
+
+    if (typeof omgrfq_productCollection == 'undefined') {
+        var omgrfq_productCollection = [];
+    }
+
+    function checkAppShow () {
+        return new Promise(resolve => {
+            document.addEventListener('DOMContentLoaded', () => {
+                resolve(true)
+            })
+        })
+    }
+
+    function installApp() {
+        const OMGRFQscripts = document.getElementsByTagName("script");
+        for (let i = 0; i < OMGRFQscripts.length; i++) {
+            if (OMGRFQscripts[i].textContent.indexOf("omgRFQCheckInstallApp.js") >= 0
+                && !OMGRFQscripts[i].id.includes("omgrfq-script")) {
+                OMGQuoteExistsScriptTags = OMGQuoteExistsScriptTags + 1;
+            }
+        }
+        isAppShow = OMGQuoteExistsScriptTags > 0 // install status
+        // check expired
+        if (OMGRFQConfigs.installed_date) {
+            const OMGRFQinstalledDate = OMGRFQConfigs.installed_date;
+            const OMGRFQclientStatus = OMGRFQConfigs.store_status;
+            const OMGRFQtrialTime = OMGRFQConfigs.store_trial_time * 24 * 60 * 60;
+            const OMGRFQtimeNow = Math.floor(Date.now() / 1000);
+            const OMGRFQtimeInstall = Math.floor(Date.parse(OMGRFQinstalledDate) / 1000);
+            const OMGRFQtimeLeft =  OMGRFQtimeNow - OMGRFQtimeInstall;
+            if (OMGRFQtimeLeft > OMGRFQtrialTime && OMGRFQclientStatus !== 'active') {
+                isAppShow = false;
+            }
+        }
+    }
+
+    function OMGQuotesPriceClass() {
+        const selectors = [
+            '.modal_price',
+            '.product-form--price-wrapper',
+            '.product-single__price',
+            '.product_single_price',
+            '.product-single__price-product-template',
+            '.prices',
+            '.price',
+            '.product-pricing',
+            '.product__price-container',
+            '.product--price',
+            '.product-price',
+            '.product-prices',
+            '.product__price',
+            '.price-box',
+            '.price-container',
+            '.price-list',
+            '.product-detail .price-area',
+            '.price_outer',
+            '#product-price',
+            '.price_range',
+            '.detail-price',
+            '.product-single__form-price',
+            '.data-price-wrapper',
+            ".priceProduct",
+            "#ProductPrice",
+            ".product-single__meta-list",
+            ".product-single__prices",
+            ".ProductMeta__PriceList",
+            ".tt-price",
+            '.single_product__price',
+            '.pricearea',
+            '.product-item-caption-price',
+            '#productPrice-product-template'
+        ];
+
+        return selectors.join(',');
+    }
+    function OMGQuotesCollectionItemClass() {
+        const selectors = [
+            '.product--price-wrapper',
+            '.product-card__price',
+            '.product-card__availability',
+            '.price-box',
+            '.productitem--price',
+            '.price',
+            '.boost-pfs-filter-product-item-price',
+            '.price_wrapper',
+            '.product-list-item-price',
+            '.grid-product__price',
+            '.product_price',
+            '.grid-product__price-wrap',
+            '.product-block__title-price .price',
+            '.price-list',
+            '.product-item__price',
+            '.product-price',
+            '.price-product',
+            '.product-info .price',
+            '.product-price__price',
+            '.card-list .card .card__price',
+            '.product-item__price-wrapper',
+            '.product__prices',
+            '.product-item--price',
+            '.grid-link__meta',
+            '.list-meta',
+            '.ProductItem .ProductItem__PriceList',
+            '.product-item__price-list',
+            '.tt-price',
+            '.pricearea',
+            '.product-thumb-caption-price',
+            '.product-card__price-wrapper',
+            '.card__price',
+            '.card__availability'
+        ];
+
+        return selectors;
+    }
+    function OMGQuotesTitleClass() {
+        const selectors = [
+            '.product-single__title',
+            '.product-title',
+            '.product-single h2',
+            '.product-name',
+            '.product__heading',
+            '.product-header',
+            '.detail-info h1',
+            '#product-description h1',
+            '.product__title',
+            '.product-meta__title',
+            '#productInfo-product h1',
+            '.product-detail .title',
+            '.section_title',
+            '.product-info-inner h1.page-heading',
+            '.shopify-product-form',
+            '.product_title',
+            '.product_name',
+            '.ProductMeta__Title',
+            '.tt-title',
+            '.single_product__title',
+            '.product-item-caption-title',
+            '.section__title'
+        ];
+
+        return selectors.join(',');
+    }
+    function OMGQuotesDescriptionClass() {
+        const selectors = [
+            '.product-single__description',
+            '.short-description',
+            '.product-description',
+            '.description',
+            '.short-des',
+            '.product-details__description',
+            '.product-desc',
+            '#product-description .rte',
+            '.product__description',
+            '.product_description',
+            '.product-block-list__item--description',
+            '.tabs__product-page',
+            '.pr_short_des',
+            '.product-single__desc',
+            '.product-tabs',
+            '.site-box-content .rte',
+            '.product-simple-tab',
+            '.product_section .description',
+            '.ProductMeta__Description',
+            '.tt-collapse-block',
+            '.product-single .detail-bottom',
+            '.short-description-detail',
+            '.dt-sc-tabs-container',
+            '.product-thumbnail__price',
+            '.collapsibles-wrapper',
+            '.product-description-tabs',
+            '.product-single__content-text'
+        ];
+
+        return selectors.join(',');
+    }
+    function OMGQuotesCollectionCartClass() {
+        const selectors = [
+            '.btn.product-btn',
+            '.product-item .action form',
+            '.btn.add-to-cart-btn',
+            '.boost-pfs-addtocart-wrapper',
+            '.productitem--action',
+            '.btn-cart',
+            '.product-form .product-add',
+            '.button--add-to-cart',
+            '.product-item__action-button',
+            '.blog-read-more',
+            '.tt-btn-addtocart',
+            '.pr_atc_',
+            '.product-add-cart',
+            '.productgrid--items .productgrid--item button.productitem--action-atc',
+            '.add_to_cart_button',
+            '.product-item__action-list'
+        ];
+
+        return selectors.join(',');
+    }
+    // dont have any match theme json
+    if (!Object.keys(OMGRFQConfigs.theme).length || typeof OMGRFQConfigs.theme === 'string') {
+        OMGRFQConfigs.theme = {};
+        OMGRFQConfigs.theme.title_class = OMGQuotesTitleClass();
+        OMGRFQConfigs.theme.description_class = OMGQuotesDescriptionClass();
+        OMGRFQConfigs.theme.price_class = OMGQuotesPriceClass();
+        OMGRFQConfigs.theme.collection_item_price = OMGQuotesCollectionItemClass();
+        OMGRFQConfigs.theme.collection_addcart = OMGQuotesCollectionCartClass();
+    }
+
+    async function initAppQuotesOMG() {
+        await checkAppShow()
+        installApp()
+        const elementPrice = OMGRFQConfigs.settings.support_settings && OMGRFQConfigs.settings.support_settings.price_element ? OMGRFQConfigs.settings.support_settings.price_element : OMGRFQConfigs.theme.price_class
+
+        let OMGRFQhidePriceFirst = '';
+
+        if (!isAppShow || !Number(OMGRFQConfigs.settings.enable_app)) {
+            // off app
+            setInterval(() => {
+                OMGRFQhidePriceFirst = document.querySelectorAll(elementPrice);
+                if (OMGRFQhidePriceFirst) {
+                    OMGRFQhidePriceFirst.forEach(element => {
+                        element.style.display = 'block';
+                    });
+                }
+            }, 100)
+            return;
+        }
+
+        if (OMGRFQConfigs.app_url) {
+            // append css js before start app
+            const head = document.getElementsByTagName('head')[0];
+            let style = document.createElement('link');
+            style.href = `${OMGRFQConfigs.app_url}/client_restructure/dist/css/omgrfg_style.css?v=${Math.floor(Date.now() / 1000)}`;
+            style.type = 'text/css';
+            style.rel = 'stylesheet';
+            head.appendChild(style);
+        }
+
+        {% if customer %}
+        OMGRFQConfigs.customerId = {{ customer.id }};
+        if (typeof OMGRFQConfigs.customerTags == 'undefined') OMGRFQConfigs.customerTags = [];
+        {% for tag in customer.tags %}
+        OMGRFQConfigs.customerTags.push('{{ tag }}');
+        {% endfor %}
+        {% else %}
+        OMGRFQConfigs.customerId = null;
+        OMGRFQConfigs.customerTags = null;
+        {% endif %}
+        {% if product %}
+        OMGRFQConfigs.productInTheme = {{ product | json }};
+        {% if product.variants[0] %}
+            let variantIndex = 0;
+            {% for variant in product.variants %}
+                {% if variant.inventory_quantity %}
+                    OMGRFQConfigs.productInTheme.variants[variantIndex].inventory_quantity = {{ variant.inventory_quantity }};
+                {% endif %}
+                variantIndex++;
+            {% endfor %}
+        {% endif %}
+        OMGRFQConfigs.variant_selected_or_first = {{ product.selected_or_first_available_variant | json }}
+            {% else %}
+            OMGRFQConfigs.productInTheme = null;
+        {% endif %}
+
+        {% for collection in product.collections %}
+        if (typeof OMGRFQConfigs.productInTheme['collection'] === 'undefined') OMGRFQConfigs.productInTheme['collection'] = [];
+        OMGRFQConfigs.productInTheme['collection'].push(`{{ collection.title }}`);
+        {% endfor %}
+
+        OMGRFQConfigs.currency = {{ shop.money_format | json }};
+
+        OMGRFQConfigs.currency = strip_tags(OMGRFQConfigs.currency);
+
+        function strip_tags(str, allowed_tags) {
+            var key = '', allowed = false;
+            var matches = [];
+            var allowed_array = [];
+            var allowed_tag = '';
+            var i = 0;
+            var k = '';
+            var html = '';
+
+            var replacer = function (search, replace, str) {
+                return str.split(search).join(replace);
+            };
+            // Build allowes tags associative array
+            if (allowed_tags) {
+                allowed_array = allowed_tags.match(/([a-zA-Z0-9]+)/gi);
+            }
+
+            str += '';
+
+            // Match tags
+            matches = str.match(/(<\/?[\S][^>]*>)/gi);
+
+            // Go through all HTML tags
+            for (key in matches) {
+                if (isNaN(key)) {
+                    // IE7 Hack
+                    continue;
+                }
+
+                // Save HTML tag
+                html = matches[key].toString();
+
+                // Is tag not in allowed list ? Remove from str !
+                allowed = false;
+
+                // Go through all allowed tags
+                for (k in allowed_array) {
+                    // Init
+                    allowed_tag = allowed_array[k];
+                    i = -1;
+
+                    if (i !== 0) {
+                        i = html.toLowerCase().indexOf('<' + allowed_tag + '>');
+                    }
+                    if (i !== 0) {
+                        i = html.toLowerCase().indexOf('<' + allowed_tag + ' ');
+                    }
+                    if (i !== 0) {
+                        i = html.toLowerCase().indexOf('</' + allowed_tag);
+                    }
+
+                    // Determine
+                    if (i === 0) {
+                        allowed = true;
+                        break;
+                    }
+                }
+
+                if (!allowed) {
+                    str = replacer(html, "", str);
+                    // Custom replace. No regexing
+                }
+            }
+            return str;
+        }
+        // document.addEventListener('DOMContentLoaded', () => {
+            
+        OMGRFQhidePriceFirst = document.querySelectorAll(elementPrice);
+        OMGRFQhidePriceFirst.forEach(element => {
+            if (OMGRFQConfigs.settings.hide_price_settings
+                && Number(OMGRFQConfigs.settings.hide_price_settings.hide_price)) {
+                element.classList.add("ot-hide-price");
+            } else {
+                // off hide price
+                element.style.display = 'block';
+            }
+        });
+
+        if (!document.getElementById('app-quotes')) {
+            let appendApp = document.createElement('div');
+            appendApp.setAttribute('id', 'app-quotes');
+            document.body.appendChild(appendApp);
+            {% render 'omgrfq_script.js'  %}
+
+            if (__st.p === "collection") {
+                appendElementInCollectionPage();
+            }
+        }
+        // })
+    }
+
+    initAppQuotesOMG();
+
+    function appendElementInCollectionPage() {
+        const omgrfq_element = document.querySelectorAll(".omgrfq-collection-button");
+        let elementItems = document.querySelectorAll(getElementsCollectionsPage());
+
+        if (OMGRFQConfigs.settings.support_settings && OMGRFQConfigs.settings.support_settings.collection_element) {
+            elementItems = document.querySelectorAll(OMGRFQConfigs.settings.support_settings.collection_element);
+        }
+        
+        if (elementItems.length && !omgrfq_element.length
+                && (appQuotesSettings.allow_collection_button == 1 || appQuotesSettings.hide_price_collection == 1)) {
+            {% if collection.products %}
+                {% assign OMGNumber = 12 %}
+                {% if section.settings.products_per_page %}
+                    {% assign OMGNumber = section.settings.products_per_page %}
+                {% endif %}
+                {%- paginate collection.products by OMGNumber -%}
+                    {% for product in collection.products %}
+                        let element{{ forloop.index0 }} = document.createElement('div');
+                        element{{ forloop.index0 }}.className = "omgrfq-collection-button";
+                        element{{ forloop.index0 }}.dataset.productId = "{{ product.id }}";
+                        elementItems[{{ forloop.index0 }}].appendChild(element{{ forloop.index0 }});
+          				window.omgrfqListTags = [];
+                        {% for tag in product.tags %}
+                            window.omgrfqListTags.push('{{ tag | escape }}');
+                        {% endfor %}
+                        var productOfCollection = {};
+                        productOfCollection.id = {{ product.id }};
+                        productOfCollection.created_at = "{{ product.created_at }}";
+                        productOfCollection.handle = "{{ product.handle }}";
+                        productOfCollection.image = "{{ product.featured_image | image_url }}";
+                        productOfCollection.published_at = "{{ product.published_at }}";
+                        productOfCollection.tags = window.omgrfqListTags;
+                        productOfCollection.title = "{{ product.title | escape}}";
+                        productOfCollection.type = "{{ product.type }}";
+                        productOfCollection.variants = {{ product.variants | json }};
+                        productOfCollection.vendor = "{{ product.vendor }}";
+                        productOfCollection.collection = [];
+                        {% for collection in product.collections %}
+                            if (typeof productOfCollection.collection === 'undefined') productOfCollection.collection = [];
+                            productOfCollection.collection.push("{{ collection.title }}");
+                        {% endfor %}
+
+                        if (typeof omgrfq_productCollection == 'undefined') {
+                            omgrfq_productCollection = [];
+                        }
+                        omgrfq_productCollection[{{ product.id }}] = productOfCollection;
+                    {% endfor %}
+                {%- endpaginate -%}
+            {% endif %}
+            if (window.OMGRFQGlobalVariables) {
+                OMGRFQGlobalVariables._vnode.componentInstance.showButtonInSpecialPosition('.omgrfq-collection-button');
+            }
+        }
+    }
+
+    function getElementsCollectionsPage() {
+        const selectors = [
+            ".grid__item--collection-template",
+            ".grid--uniform .grid__item",
+            ".card-list .card-list__column .card",
+            ".grid-uniform .grid__item",
+            ".collage-grid__row .grid-product",
+            ".product-card .product-card__content",
+            "#product-grid .card-wrapper .card > .card__content .card__information"
+        ]
+
+        return selectors.join(',')
+    }
+</script>

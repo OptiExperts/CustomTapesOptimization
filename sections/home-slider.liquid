@@ -1,0 +1,57 @@
+<div class="slider_list">
+    {% for block in section.blocks %}
+    <div class="slide_box">
+      {% if block.settings.link != blank %}
+      <a href="{{ block.settings.link }}">
+        <img class="desk_img" src="{{ block.settings.desktop_image | img_url: 'master' }}" alt="">
+        <img class="mobile_img" src="{{ block.settings.mobile_image | img_url: 'master' }}" alt="">
+      </a>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+{% schema %}
+  {
+    "name": "Home Slider Section",
+    "class": "home_slider",
+    "max_blocks": 10,
+    "settings": [
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+           {
+            "type": "image_picker",
+            "id": "desktop_image",
+            "label": "Desktop Image"
+          },
+		  {
+            "type": "image_picker",
+            "id": "mobile_image",
+            "label": "Mobile Image"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link",
+            "info": "Optional"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Slider Section",
+        "category": "Home",
+        "blocks": [
+          {
+            "type": "image"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

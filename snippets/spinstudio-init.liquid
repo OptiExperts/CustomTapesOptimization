@@ -1,0 +1,36 @@
+{% if template contains "product" %}
+  <meta id="spinstudio_enabled" content="1" />
+  <meta id="spinstudio_overlay" content="0" />
+  <meta id="spinstudio_images" content="{% for image in product.images %}{{ image.src | img_url: 'original', scale: 2 }}{% unless forloop.last %}:@:{% endunless %}{% endfor %}" />
+  <meta id="spinstudio_alt" content="{% for image in product.images %}{{ image.alt | escape  }}{% unless forloop.last %}:@:{% endunless %}{% endfor %}" />
+  <meta id="spinstudio_product_id" content="{{ product.id }}" />
+  <script type="text/javascript">
+    var evImgs = document.querySelectorAll("img[alt=\'3D\']");
+    for( var i = 0; i < evImgs.length; i++ ) evImgs[i].style.opacity = 0;
+  </script>
+  <style>
+    .spinstudio-hidden { display: none !important; }
+    
+    /* Debut Theme */
+    .grid .product-single__photo-wrapper .spinstudio-holder { padding-top: 0 !important; }
+    .grid .product-single__media-wrapper .spinstudio-holder { padding-top: 0 !important; }
+    /* Simple Theme */
+    .grid .product-single__featured-image-wrapper .spinstudio-holder { padding-top: 0 !important; }
+    /* Minimal Theme*** */
+    .grid .product-single__image-wrapper .spinstudio-holder { padding-top: 0 !important; }
+    /* Venture */
+    .grid .product-single__photo .spinstudio-holder { padding-top: 0 !important; }
+    /* Boundless */
+    .grid .product__photo .spinstudio-holder { padding-top: 0 !important; }
+    /* Supply*** */
+    .product-photo-container .lazyload__image-wrapper .spinstudio-holder { padding-top: 0 !important; }
+    /* Brooklin */
+    .product-single__media-flex-wrapper .product-single__media-wrapper .spinstudio-holder { padding-top: 0 !important; }
+    /* Narrative */
+    .product__submedia-list .product__submedia-list-item .spinstudio-holder { padding-top: 0 !important; }
+    .product-slideshow--show .product-slideshow__slide-list.slider.spinstudio-holder .product-media--image.spinstudio-holder .-spin-studio-active-wrapper {      height: 100%;    }
+    .product-slideshow--show .product-slideshow__slide-list.slider.spinstudio-holder .product-media--image.spinstudio-holder .-spin-studio-large-thumb-reel {      height: 100% !important;      width: 100% !important;    }
+    .product-slideshow--show .product-slideshow__slide-list.slider.spinstudio-holder .product-media--image.spinstudio-holder .-spin-studio-large-thumb {      height: 100% !important;      width: 100% !important;      object-fit: contain;    }
+  </style>
+ 
+{% endif %}

@@ -1,0 +1,147 @@
+<div class="page-width">
+  <div class="block2">
+    <div class="img_block">
+      <div class="two_img coman_img">
+        {%- if section.settings.image01 != blank -%}
+        <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ section.settings.image01 | img_url: '800x' }}" alt="">
+        {%- endif -%}
+        {%- if section.settings.image02 != blank -%}
+        <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ section.settings.image02 | img_url: '800x' }}" alt="">
+        {%- endif -%}  
+      </div>
+      <div class="one_img coman_img">
+        {%- if section.settings.image03 != blank -%}
+        <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ section.settings.image03 | img_url: '800x' }}" alt="">
+        {%- endif -%}  
+      </div>
+    </div>
+    <div class="txt_block">
+      <div class="about_details">
+        {%- if section.settings.about_title != blank -%}
+        <h2>{{ section.settings.about_title | escape }}</h2>
+        {%- endif -%}
+        {% if section.settings.richtext != blank %}
+        <div class="rich-text">{{ section.settings.richtext }}</div>
+        {% endif %}            	
+
+      </div>
+      <div class="two_img coman_img">
+        {%- if section.settings.image04 != blank -%}
+        <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ section.settings.image04 | img_url: '800x' }}" alt="">
+        {%- endif -%}  
+        {%- if section.settings.image05 != blank -%}
+        <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ section.settings.image05 | img_url: '800x' }}" alt="">
+        {%- endif -%}  
+      </div>
+    </div>
+  </div>
+  <div class="block2">
+    <div class="txt_block align_left">
+      <div class="about_details">
+        {%- if section.settings.about_title01 != blank -%}
+        <h2>{{ section.settings.about_title01 | escape }}</h2>
+        {%- endif -%}
+        {% if section.settings.richtext01 != blank %}
+        <div class="rich-text">{{ section.settings.richtext01 }}</div>
+        {% endif %}     
+        {% if section.settings.link != blank %}
+        <a class="btn shop_btn" href="{{ section.settings.link }}">{{ section.settings.link_btn | escape }}</a>
+        {% endif %}
+      </div>
+    </div>
+    {%- if section.settings.image06 != blank -%}
+    <div class="img_block">
+      <div class="one_img coman_img">
+        <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ section.settings.image06 | img_url: '800x' }}" alt="">
+      </div>
+    </div>
+    {%- endif -%}  
+  </div>
+</div>
+
+
+
+
+
+{% schema %}
+  {
+    "name": "About Section",
+    "class": "about_section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "about_title",
+        "label": "About Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "richtext",
+        "label": "Text",
+        "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+      },
+      {
+        "type": "image_picker",
+        "id": "image01",
+        "label": "About Image 01"
+      },
+      {
+        "type": "image_picker",
+        "id": "image02",
+        "label": "About Image 02"
+      },
+      {
+        "type": "image_picker",
+        "id": "image03",
+        "label": "About Image 03"
+      },
+      {
+        "type": "image_picker",
+        "id": "image04",
+        "label": "About Image 04"
+      },
+      {
+        "type": "image_picker",
+        "id": "image05",
+        "label": "About Image 05"
+      },
+      {
+        "type": "header",
+        "content": "About left section"
+      },
+	  {
+        "type": "text",
+        "id": "about_title01",
+        "label": "About Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "richtext01",
+        "label": "Text",
+        "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+      },
+      {
+        "type": "text",
+        "id": "link_btn",
+        "label": "Shop"
+      },
+      {
+        "type": "url",
+        "id": "link",
+        "label": "Link",
+        "info": "Optional"
+      },
+      {
+        "type": "image_picker",
+        "id": "image06",
+        "label": "About Image 06"
+      }
+
+    ],
+    "presets": [
+      {
+        "name": "About Section",
+        "category": "Home"
+      }
+    ]
+  }
+{% endschema %}
