@@ -93,6 +93,8 @@
   {%- assign base_font_bold_italic = base_font_bold | font_modify: 'style', 'italic' -%}
 
 
+  <link rel="preload" href="{{ 'theme.js' | asset_url }}" as="script">
+
   {%- if canonical_url != blank  -%}
     <link rel="canonical" href="{{ canonical_url }}">
   {%- endif -%}
