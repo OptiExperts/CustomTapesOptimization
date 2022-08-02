@@ -1,0 +1,27 @@
+<script type="lazyload2">
+    let isUnblocked = false;
+   // window.addEventListener("allReady", () => {
+        loadApps();
+    // });
+    function loadApps()
+    {
+    isUnblocked = true;
+      
+        array.forEach((element)=>{
+            var script = document.createElement('script');
+            script.src = element;
+          console.log(element);
+            document.getElementsByTagName('head')[0].appendChild(script);
+        });
+        setTimeout(()=>{
+            let scripts = document.querySelectorAll("script");
+            Array.from(scripts).forEach(function(element){
+                if(element.dataset.src){
+                    element.src = element.dataset.src;
+                    document.getElementsByTagName("head")[0].appendChild(element);
+                }
+            });
+            emitEvent("allLoad", window, {});
+        }, 40);
+    }
+  </script>
