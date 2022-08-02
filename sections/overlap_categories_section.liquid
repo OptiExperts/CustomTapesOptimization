@@ -24,7 +24,7 @@
     <div class="overlap_categories_box">
       <div class="overlap_categories_inner">
         {% if block.settings.image != blank %}
-        <div class="cate_img"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ block.settings.image | img_url: '600x' }}" alt=""></div>
+        <div class="cate_img"><img class="lazyload lazy2" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ block.settings.image | img_url: '600x' }}" alt=""></div>
         {% endif %}
         <div class="categories_details">
           {% if block.settings.cta_label != blank %}
