@@ -82,9 +82,9 @@
           "title": "New Products",
           "collection": "understanding-custom-printed-packaging-and-paper-tapes",
           "grid": 4,
-          "rows": 1,
+          "rows": 2,
           "show_vendor": false,
-          "show_view_all": true
+          "show_view_all": false
         }
       },
       "quotes": {
