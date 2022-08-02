@@ -246,7 +246,6 @@
       var polyfill = document.createElement("script");
       polyfill.defer = true;
       polyfill.src = "{{ 'ie11CustomProperties.min.js' | asset_url }}";
-
       scripts.parentNode.insertBefore(polyfill, scripts);
     }
   </script> 
