@@ -1,11 +1,11 @@
 <div class="overlap_section">
   {% if section.settings.image_main != blank %}
-  <div class="over_main_img"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ section.settings.image_main | img_url: '1920x' }}" alt=""></div>
+  <div class="over_main_img"><img width="100%" height="100%" class="lazyload lazy2" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ section.settings.image_main | img_url: '1920x' }}" alt=""></div>
   {% endif %}
   <div class="overlap_details">
     <div class="page-width">
       {% if section.settings.image_icon != blank %}
-      	<div class="icon_img"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ section.settings.image_icon | img_url: '400x' }}" alt=""></div>
+      	<div class="icon_img"><img width="100%" height="100%" class="lazyload lazy2" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ section.settings.image_icon | img_url: '400x' }}" alt=""></div>
       {% endif %}
       {% if section.settings.main_title != blank %}
       	<h3>{{ section.settings.main_title | escape }}</h3>
@@ -24,7 +24,7 @@
     <div class="overlap_categories_box">
       <div class="overlap_categories_inner">
         {% if block.settings.image != blank %}
-        <div class="cate_img"><img class="lazyload lazy2" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ block.settings.image | img_url: '600x' }}" alt=""></div>
+        <div class="cate_img"><img width="100%" height="100%" class="lazyload lazy2" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ block.settings.image | img_url: '600x' }}" alt=""></div>
         {% endif %}
         <div class="categories_details">
           {% if block.settings.cta_label != blank %}
