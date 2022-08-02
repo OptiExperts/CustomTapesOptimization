@@ -266,7 +266,7 @@
   <div class="page-width">
     <div class="footer_bottom">
       <p>&copy; {{ 'now' | date: "%Y" }} <strong>{{ shop.name | link_to: routes.root_url }}</strong> , All rights reserved. <span class="bull">|</span>Powered by <a target="_blank" rel="nofollow noopener" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore" aria-describedby="a11y-new-window-external-message"> <strong>Shopify</strong> </a> <span class="bull">|</span><a href="https://www.qeretail.com/services/custom-website-design" target="_blank">eCommerce website design</a> by <strong>QeRetail</strong></p>
-      <div class="payment_icon"><img src="{{ 'payment_icon.png' | asset_url }}" alt=""></div>
+      <div class="payment_icon"><img class="lazy2" data-src="{{ 'payment_icon.png' | asset_url }}" alt=""></div>
     </div>
     {% comment %}
     <div class="grid grid--no-gutters small--text-center grid--footer-float-right">
