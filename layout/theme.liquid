@@ -85,23 +85,14 @@
 
 
 <link data-href="{{ 'fonts-load.css' | asset_url }}" rel="stylesheet" type="text/css" media="all" />  
-  {% comment %} <style>
+  } <style>
     {{ header_font | font_face: font_display: 'swap' }}
     {{ base_font | font_face: font_display: 'swap' }}
     {{ base_font_bold | font_face: font_display: 'swap' }}
     {{ base_font_bolder | font_face: font_display: 'swap' }}
     {{ base_font_italic | font_face: font_display: 'swap' }}
     {{ base_font_bold_italic | font_face: font_display: 'swap' }}
-  </style>{% endcomment %} 
-
-
-     <script>
-     document.open();
-     
-     document.write({{pDescription | json}});
-     else{}
-     document.close();
-     </script>
+  </style>
   <script>
     var theme = {
       breakpoints: {
@@ -169,13 +160,6 @@
   <script src="{{ 'lazysizes.js' | asset_url }}" async="async"></script>
 
 
-     <script>
-     document.open();
-     
-     document.write({{pDescription | json}});
-     else{}
-     document.close();
-     </script>
   <script type="text/javascript">
     if (window.MSInputMethodContext && document.documentMode) {
       var scripts = document.getElementsByTagName('script')[0];
