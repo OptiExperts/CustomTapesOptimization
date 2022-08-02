@@ -125,7 +125,7 @@
           </div>
           
           <a href="{{ routes.cart_url }}" class="site-header__icon site-header__cart">
-            <span class="cart_icon"><img src="{{ 'cart_icon.png' | asset_url }}" alt=""></span>
+            <span class="cart_icon"><img width="100%" height="100%" class="lazy2" data-src="{{ 'cart_icon.png' | asset_url }}" alt=""></span>
             <div id="CartCount" class="site-header__cart-count critical-hidden" data-cart-count-bubble>
               <span data-cart-count>{{ cart.item_count }}</span>
             </div>
