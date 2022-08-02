@@ -140,7 +140,7 @@
   <link rel="preload" href="https://fonts.shopifycdn.com/lato/lato_n4.c86cddcf8b15d564761aaa71b6201ea326f3648b.woff2?h1=Y3VzdG9tdGFwZXMuY29t&hmac=86bb0ce78f1d901a5c64500918d69bef6f661590ec76bee5ac67b3f7ecf3369b" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="https://fonts.shopifycdn.com/roboto/roboto_n4.da808834c2315f31dd3910e2ae6b1a895d7f73f5.woff2?h1=Y3VzdG9tdGFwZXMuY29t&hmac=c58d5eee28976a13f134b11ff0e21ad03d9c43ab84e7aea2e5a0895a7807859f" as="font" type="font/woff2" crossorigin>
 
-  <script>
+  <script type="lazyload2">
     window.performance.mark('debut:theme_stylesheet_loaded.start');
 
     function onLoadStylesheet() {
@@ -154,7 +154,7 @@
     }
   </script>
  {% include 'theme-style' %}
-  <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+  <link rel="stylesheet" data-href="{{ 'theme.css' | asset_url }}">
  <style>
    .owl-carousel .owl-wrapper:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.owl-carousel{display:none;position:relative;width:100%;-ms-touch-action:pan-y}.owl-carousel .owl-wrapper{display:none;position:relative;-webkit-transform:translate3d(0,0,0)}.owl-carousel .owl-wrapper-outer{overflow:hidden;position:relative;width:100%}.owl-carousel .owl-wrapper-outer.autoHeight{-webkit-transition:height .5s ease-in-out;-moz-transition:height .5s ease-in-out;-ms-transition:height .5s ease-in-out;-o-transition:height .5s ease-in-out;transition:height .5s ease-in-out}.owl-carousel .owl-item{float:left}.owl-controls .owl-buttons div,.owl-controls .owl-page{cursor:pointer}.owl-controls{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}.grabbing{cursor:url(grabbing.png) 8 8,move}.owl-carousel .owl-item,.owl-carousel .owl-wrapper{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}.owl-theme .owl-controls{margin-top:10px;text-align:center}.owl-theme .owl-controls.clickable .owl-buttons div:hover{filter:Alpha(Opacity=100);opacity:1;text-decoration:none}.owl-theme .owl-controls .owl-page{display:inline-block;zoom:1}.owl-theme .owl-controls .owl-page span{display:block;width:12px;height:12px;margin:5px 7px;filter:Alpha(Opacity=50);opacity:.5;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;background:#869791}.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span{filter:Alpha(Opacity=100);opacity:1}.owl-theme .owl-controls .owl-page span.owl-numbers{height:auto;width:auto;color:#fff;padding:2px 10px;font-size:12px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px}
   </style>
@@ -237,7 +237,7 @@
   <script src="{{ 'lazysizes.js' | asset_url }}" async="async"></script>
 
 
-  <script>
+  <script type="lazyload2">
     if (window.MSInputMethodContext && document.documentMode) {
       var scripts = document.getElementsByTagName('script')[0];
       var polyfill = document.createElement("script");
