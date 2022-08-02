@@ -77,8 +77,8 @@
             {%- assign img_url = section.settings.logo | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             <a href="{{ routes.root_url }}" class="site-header__logo-image{% if section.settings.align_logo == 'center' %} site-header__logo-image--centered{% endif %}">
               {% capture logo_alt %}{{ section.settings.logo.alt | default: shop.name }}{% endcapture %}
-              <img class="lazyload js"
-                   src="{{ section.settings.logo | img_url: '300x300' }}"
+              <img class="lazyload js lazy2"
+                   data-src="{{ section.settings.logo | img_url: '300x300' }}"
                    data-src="{{ img_url }}"
                    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
                    data-aspectratio="{{ section.settings.logo.aspect_ratio }}"
@@ -123,7 +123,7 @@
           </div>
           
           <a href="{{ routes.cart_url }}" class="site-header__icon site-header__cart">
-            <span class="cart_icon"><img src="{{ 'cart_icon.png' | asset_url }}" alt=""></span>
+            <span class="cart_icon"><img class="lazy2" data-src="{{ 'cart_icon.png' | asset_url }}" alt=""></span>
             <div id="CartCount" class="site-header__cart-count critical-hidden" data-cart-count-bubble>
               <span data-cart-count>{{ cart.item_count }}</span>
             </div>
