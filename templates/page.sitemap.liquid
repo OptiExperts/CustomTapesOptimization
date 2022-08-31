@@ -7,6 +7,28 @@
 
       <div class="rte">
         {{ page.content }}
+        <div class="row">
+<div class="col-md-6">
+<h2>Collections</h2>
+<ul>
+{% for c in collections %}
+<li>
+<a href="{{ c.url }}">{{ c.title }}</a>
+</li>
+{% endfor %}
+</ul>
+</div>
+<div class="col-md-6">
+<h2>Products</h2>
+<ul>
+{% for product in collections.all.products %}
+<li>
+<a href="{{ product.url }}">{{ product.title }}</a>
+</li>
+{% endfor %}
+</ul>
+</div>
+</div>
       </div>
     </div>
   </div>
