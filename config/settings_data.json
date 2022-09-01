@@ -17,7 +17,7 @@
           "logo": "shopify:\/\/shop_images\/site_logo.jpg",
           "logo_max_width": 220,
           "main_linklist": "main-menu",
-          "message": true,
+          "message": false,
           "home_page_only": false,
           "message_text": "Due to raw material delays from several manufacturers, You may see alternative product suggestions",
           "message_link": "",
