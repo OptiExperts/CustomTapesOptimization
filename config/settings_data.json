@@ -11,6 +11,7 @@
     "social_instagram_link": "https:\/\/instagram.com\/CustomPrintedTape",
     "social_youtube_link": "https:\/\/www.youtube.com\/",
     "favicon": "shopify:\/\/shop_images\/logo.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Custom-Tapes-Logo2.png",
     "sections": {
       "header": {
         "type": "header",
