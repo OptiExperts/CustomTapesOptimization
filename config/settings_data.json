@@ -2,7 +2,9 @@
   "current": {
     "color_button": "#1d62a5",
     "type_header_font": "lato_n4",
+    "type_header_base_size": 25,
     "type_base_font": "roboto_n4",
+    "type_base_size": 16,
     "social_twitter_link": "https:\/\/twitter.com\/",
     "social_facebook_link": "https:\/\/www.facebook.com\/\/CustomPrintedTape",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/",
