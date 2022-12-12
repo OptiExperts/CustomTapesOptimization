@@ -295,23 +295,6 @@
           "show_view_all": false
         }
       },
-      "1608534704118775f2": {
-        "type": "about-section",
-        "settings": {
-          "about_title": "A Total Tape Source",
-          "richtext": "<p>Customtapes.com offers the widest range of products with the shortest lead times. We are invested in the highest quality equipment and raw materials to ensure that you are always 100% satisfied with our work. <\/p><p>Specialty Tape Converting (CustomTapes.com) proudly supplies Tapes from 3M, Intertape, Tesa Tape, Shurtape, Cantech, Avery Dennison, Achem, Adchem, Nitto, Berry Plastics, Nashua, Permacel, Patco, and more. Tape from A to Z includes Aisle Marking & Dispenser, Aluminum Foil, Appliance, Application, ATG, UPVC Bag Sealing, Barricade, Bookbinding, Cable Path, Camouflage, Double Coated Carpet, Carton Sealing, Cellophane, Circuit Board, Conspicuity Tapes, Copper Foil, Custom Printed Tapes, Differential Adhesive, Double Coated, Die Cuts, Better pack Dispensers & Replacement Parts. Double Coated, Dry Vinyl, Duct, Electrical, Electroplating, Extended Liner, Filament, Flat back Paper, Fluorescent, Foam, Foam Strips Pieces, Foil, Friction, Gaffers,Glass Cloth, Glow in the Dark, Photoluminescent, Graphic Arts, Gummed Paper,Hazard Identification, High Bond, High Temperature Masking, Hook & Loop,Invisible Mending, Kraft Paper, Label Protection\/Lamination, Lead Foil,Magnetic, Masking, Mending, Mylar Polyesters, Office Supply, Photoluminescent, Pipe Thread Seal, Teflon\/PTFE, Pipe Wrap, Polyester Film, LDPE Polyethylene Film, Polyimide, Pre-mask tapes, Custom Printed Carton Sealing, Produce tape, PVC Bag Seal, Reflective Tapes, Safety, Security, Silicone Splicing Skid Resistant tapes, Skived PTFE Teflon, Splicing, Strapping, Striped Safety, Tamper Evident, Teflon Glass Fabric, Transfer Film, UHMW, Velcro, SPVC & UPVC Vinyl, Water Activated Paper tapes, and Window Glazing Tapes.<\/p>",
-          "image01": "shopify:\/\/shop_images\/about01.png",
-          "image02": "shopify:\/\/shop_images\/about02.png",
-          "image03": "shopify:\/\/shop_images\/about03.png",
-          "image04": "shopify:\/\/shop_images\/about04.png",
-          "image05": "shopify:\/\/shop_images\/about05.png",
-          "about_title01": "About Us",
-          "richtext01": "<p>We have been in the Pressure Sensitive Tape Distribution & converting business since 1967. It is often asked of us why we need to represent and convert tapes from so many tape manufacturers? The answer is actually pretty simple, we do this so that we can meet your needs, but also meet your needs with the best possible tape product or solution.<\/p><p><strong>Do you have a tape application, problem or question?<br\/>Contact us today for the best options!<\/strong><\/p>",
-          "link_btn": "Read More",
-          "link": "shopify:\/\/pages\/about-us",
-          "image06": "shopify:\/\/shop_images\/Reflective1.jpg"
-        }
-      },
       "product-template": {
         "type": "product-template",
         "settings": {
@@ -364,8 +347,7 @@
       "160829130466437723",
       "16082851108cc9cac9",
       "collection",
-      "16082995275d67b2ad",
-      "1608534704118775f2"
+      "16082995275d67b2ad"
     ],
     "blocks": {
       "15573056287721514228": {
