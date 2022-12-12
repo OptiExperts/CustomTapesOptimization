@@ -282,60 +282,6 @@
         "settings": {
         }
       },
-      "1608299516096e3331": {
-        "type": "overlap_categories_section",
-        "blocks": {
-          "1608299516096e3331-0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/tap_01.png",
-              "cta_label": "Custom Printed Film Tape",
-              "link_btn": "Shop Now",
-              "link": "shopify:\/\/collections\/custom-printed-film-tape-custom-printed-tape"
-            }
-          },
-          "aa504e6d-50b5-477c-9674-4ea870ad0924": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image": "shopify:\/\/shop_images\/tap_03.png",
-              "cta_label": "Printed Filament Tape",
-              "link_btn": "Shop Now",
-              "link": "shopify:\/\/collections\/printed-filament-tape-custom-printed-tape"
-            }
-          },
-          "e888ac16-35f9-4256-89fc-c6aa5df88ba3": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/tap_02.png",
-              "cta_label": "Custom Printed Kraft",
-              "link_btn": "Shop Now",
-              "link": "#"
-            }
-          },
-          "553660b9-74ed-4926-b423-3edee29df02f": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "cta_label": "",
-              "link_btn": "",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1608299516096e3331-0",
-          "aa504e6d-50b5-477c-9674-4ea870ad0924",
-          "e888ac16-35f9-4256-89fc-c6aa5df88ba3",
-          "553660b9-74ed-4926-b423-3edee29df02f"
-        ],
-        "settings": {
-          "image_main": "shopify:\/\/shop_images\/overlap_img.jpg",
-          "image_icon": "shopify:\/\/shop_images\/tap_icon_abfcc208-19cd-4fb5-8167-dcf741c15d48.png",
-          "main_title": "Custom printed tape",
-          "richtext": "<p>If you're looking for a way to reduce your shipping costs but still want to brand your products, consider printed packaging tapes.<br\/><br\/><a href=\"\/collections\/custom-printed-tape\" title=\"Custom Printed Tape\">View All<\/a><\/p>"
-        }
-      },
       "16082995275d67b2ad": {
         "type": "collection",
         "disabled": true,
@@ -363,7 +309,7 @@
           "richtext01": "<p>We have been in the Pressure Sensitive Tape Distribution & converting business since 1967. It is often asked of us why we need to represent and convert tapes from so many tape manufacturers? The answer is actually pretty simple, we do this so that we can meet your needs, but also meet your needs with the best possible tape product or solution.<\/p><p><strong>Do you have a tape application, problem or question?<br\/>Contact us today for the best options!<\/strong><\/p>",
           "link_btn": "Read More",
           "link": "shopify:\/\/pages\/about-us",
-          "image06": "shopify:\/\/shop_images\/about06.png"
+          "image06": "shopify:\/\/shop_images\/Reflective1.jpg"
         }
       },
       "product-template": {
@@ -418,7 +364,6 @@
       "160829130466437723",
       "16082851108cc9cac9",
       "collection",
-      "1608299516096e3331",
       "16082995275d67b2ad",
       "1608534704118775f2"
     ],
