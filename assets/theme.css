@@ -7795,7 +7795,7 @@ background-size: 15px auto;
 .owl-controls .owl-page, .owl-controls .owl-buttons div {background-size: 12px auto !important;}
   .categories_section{padding-top:30px;}
 }
-
+.collection-hero__image {background: none !important;}
 @media (max-width: 380px) {
 
 .site-footer .site-footer__content > .site-footer__item:nth-child(1) { margin-right: 0; width: 100%;}
