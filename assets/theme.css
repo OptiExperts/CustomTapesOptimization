@@ -7796,8 +7796,6 @@ background-size: 15px auto;
   .categories_section{padding-top:30px;}
 }
 .collection-hero__image {background: gray !important;}
-.collection-grid-item__title.h1 {
-	color: red;
 }
 @media (max-width: 380px) {
 
