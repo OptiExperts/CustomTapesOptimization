@@ -7807,6 +7807,8 @@ background-size: 15px auto;
 
 .site-footer__item {margin-bottom:30px;}
 }
-
+.article__author {
+    display: none !important;
+}
 .description_tab .shortdescription{display:none !important;}
 .product-single__meta .product__price{margin-top:20px;}
