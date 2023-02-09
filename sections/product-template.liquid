@@ -131,7 +131,29 @@
         </div>
       {% endif %}
     </div>
+{%- assign review_rating = false -%}
+{% if product.metafields.spr.reviews %}
+  {% capture review_data %}{{ product.metafields.spr.reviews }}{% endcapture %}
 
+  {%- assign rating_keyword = '"ratingValue":' -%}
+  {%- assign rd_a1 = review_data | split: rating_keyword -%}
+  {%- assign rd_a2 = rd_a1[1] | split: "," -%}
+  {%- assign rd_a3 = rd_a2[0] | replace: '"', "" -%}
+  {%- assign review_rating = rd_a3 | plus: 1 | minus: 1 -%}
+
+  {%- assign count_keyword = '"reviewCount":' -%}
+  {%- assign rd_a1 = review_data | split: count_keyword -%}
+  {%- assign rd_a2 = rd_a1[1] | split: "," -%}
+  {%- assign rd_a3 = rd_a2[0] | replace: '"', "" -%}
+  {%- assign review_count = rd_a3 | plus: 1 | minus: 1 -%}
+{% endif %}
+
+{%- if review_rating %}
+  <div itemprop="aggregateRating" itemscope="" itemtype="https://schema.org/AggregateRating">
+    <meta itemprop="ratingValue" content="{{ review_rating }}">
+    <meta itemprop="reviewCount" content="{{ review_count }}">
+  </div>
+{%- endif -%}
     <div class="grid__item {{ product_description_width }}">
       <div class="product-single__meta">
 
