@@ -226,14 +226,20 @@
             {% if section.settings.show_quantity_selector %}
               <div class="product-form__controls-group">
                 <label for="Quantity-{{ section.id }}">{{ 'products.product.quantity' | t }}</label>
-                <div class="qty_feild">
-                  <button type="button" id="sub" class="qty_btn sub">-</button>
+                 {% assign productTags = product.tags | join: ', ' %}
+
+                  <!--Now Check for the desired tag name-->
+                  {% if productTags contains 'min5' %}
                   <input type="number" id="Quantity-{{ section.id }}"
+                  name="quantity" value="5" min="5" pattern="[0-9]*"
+                  class="product-form__input product-form__input--quantity" data-quantity-input
+                  >
+                  {% else %}
+                   <input type="number" id="Quantity-{{ section.id }}"
                     name="quantity" value="1" min="1" pattern="[0-9]*"
-                    
-                    class="product-form__input product-form__input--quantity" data-quantity-input>
-                  <button type="button" id="add" class="qty_btn add">+</button>
-              </div>
+                    class="product-form__input product-form__input--quantity" data-quantity-input
+                  >
+                  {% endif %}
               </div>
             {% endif %}
 
