@@ -229,9 +229,9 @@
                  {% assign productTags = product.tags | join: ', ' %}
 
                   <!--Now Check for the desired tag name-->
-                  {% if productTags contains 'min5' %}
+                  {% if productTags contains 'min3' %}
                   <input type="number" id="Quantity-{{ section.id }}"
-                  name="quantity" value="5" min="5" pattern="[0-9]*"
+                  name="quantity" value="3" min="3" pattern="[0-9]*"
                   class="product-form__input product-form__input--quantity" data-quantity-input
                   >
                   {% else %}
