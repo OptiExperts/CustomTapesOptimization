@@ -85,8 +85,7 @@
       &ndash; {{ shop.name }}
     {%- endunless -%}
   {%- endcapture -%}
-  <title>{{ seo_title | strip }}</title>
-
+  <title>{% if template contains "index" %}{{ page_title }}{% else %}{{ page_title }}{% if current_tags %} {{ 'general.meta.tagged_html' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} {{ 'general.meta.page' | t: page_number: current_page }}{% endif %}{% endif %}</title>
   {% if page_description %}
       {% if template == 'collection-list' %}
           <meta name="description" content="Top Collections for CustomTapes.com.">
