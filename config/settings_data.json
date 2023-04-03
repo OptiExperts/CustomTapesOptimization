@@ -356,12 +356,6 @@
         "settings": {
         }
       },
-      "14656832010101544780": {
-        "type": "shopify:\/\/apps\/advanced-product-options\/blocks\/app-embed-block\/a1199153-7462-4b5b-8a80-f0eefba85e99",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "14082181514032464150": {
         "type": "shopify:\/\/apps\/request-a-quote-hide-prices\/blocks\/omgrfq_script\/5f4ac0e6-8a57-4f3d-853e-0194eab86273",
         "disabled": false,
@@ -374,6 +368,12 @@
       },
       "4215564508307704909": {
         "type": "shopify:\/\/apps\/xml-html-sitemap-noindex-seo\/blocks\/app-embed\/4d815e2c-5af0-46ba-8301-d0f9cf660031",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "6143736321357441667": {
+        "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
         "disabled": false,
         "settings": {
         }
