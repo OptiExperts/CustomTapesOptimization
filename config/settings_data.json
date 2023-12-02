@@ -360,10 +360,6 @@
         "type": "shopify:\/\/apps\/request-a-quote-hide-prices\/blocks\/omgrfq_script\/5f4ac0e6-8a57-4f3d-853e-0194eab86273",
         "disabled": false,
         "settings": {
-          "omg_product_per_page": 12,
-          "omg_feature_collection": "",
-          "omg_feature_product_per_page": 4,
-          "omg_search_product_per_page": 24
         }
       },
       "4215564508307704909": {
@@ -374,6 +370,12 @@
       },
       "6146500278089136509": {
         "type": "shopify:\/\/apps\/bm-country-blocker-ip-blocker\/blocks\/boostmark-blocker\/bf9db4b9-be4b-45e1-8127-bbcc07d93e7e",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "3acfba32-89f3-4377-ae20-cbb9abc48475": {
+        "type": "shopify:\/\/apps\/order-limits-minmaxify\/blocks\/app-embed-block\/3acfba32-89f3-4377-ae20-cbb9abc48475",
         "disabled": false,
         "settings": {
         }
